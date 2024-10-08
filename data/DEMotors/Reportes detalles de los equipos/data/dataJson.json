@@ -1,0 +1,11 @@
+{
+    "nombreEmpresa": "Demotors",
+    "dataDetalles": [
+        {
+            "DIRECTION": "Ejemplo",
+            "DATE": "03/10/2024",
+            "WORK_DONE": "SI",
+            "SERVICES_ORDER": "32131231"
+        }
+    ]
+}

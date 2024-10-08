@@ -1,0 +1,165 @@
+2024-10-08T03:13:32.046Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
+2024-10-08T03:13:32.049Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-08T03:13:32.055Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-08T03:13:32.057Z - info: Found 35 extension(s)
+2024-10-08T03:13:32.110Z - info: Using extension base@4.0.0
+2024-10-08T03:13:32.114Z - info: Using extension child-templates@4.1.0
+2024-10-08T03:13:32.117Z - info: Using extension cli@4.0.4
+2024-10-08T03:13:32.118Z - info: Using extension components@4.0.2
+2024-10-08T03:13:32.120Z - info: Using extension data@4.1.0
+2024-10-08T03:13:32.121Z - info: Using extension express@4.1.2
+2024-10-08T03:13:32.346Z - info: Using extension freeze@4.0.0
+2024-10-08T03:13:32.348Z - info: Using extension fs-store@4.0.4
+2024-10-08T03:13:32.441Z - info: Using extension handlebars@4.0.1
+2024-10-08T03:13:32.442Z - info: Using extension import-export@4.0.4
+2024-10-08T03:13:32.450Z - info: Using extension jsrender@4.0.0
+2024-10-08T03:13:32.450Z - info: Using extension licensing@4.0.2
+2024-10-08T03:13:32.456Z - info: Using extension localization@4.0.1
+2024-10-08T03:13:32.458Z - info: Using extension npm@4.0.0
+2024-10-08T03:13:32.460Z - info: Using extension pdf-utils@4.2.1
+2024-10-08T03:13:32.462Z - info: Using extension reports@4.1.2
+2024-10-08T03:13:32.464Z - info: Using extension tags@4.0.1
+2024-10-08T03:13:32.466Z - info: Using extension text@4.0.2
+2024-10-08T03:13:32.471Z - info: Using extension version-control@4.0.0
+2024-10-08T03:13:32.477Z - info: Using extension assets@4.1.1
+2024-10-08T03:13:32.485Z - info: Using extension authorization@4.0.0
+2024-10-08T03:13:32.489Z - info: Using extension browser-client@4.1.0
+2024-10-08T03:13:32.491Z - info: Using extension chrome-pdf@4.1.0
+2024-10-08T03:13:32.494Z - info: Using extension docx@4.5.0
+2024-10-08T03:13:32.496Z - info: Using extension html-to-xlsx@4.1.2
+2024-10-08T03:13:32.781Z - info: html-to-xlsx detected chrome as available html engine
+2024-10-08T03:13:32.782Z - info: Using extension pptx@4.3.1
+2024-10-08T03:13:32.784Z - info: Using extension scheduling@4.0.0
+2024-10-08T03:13:32.808Z - info: Using extension scripts@4.1.0
+2024-10-08T03:13:32.809Z - info: Using extension static-pdf@4.1.0
+2024-10-08T03:13:32.810Z - info: Using extension studio@4.1.1
+2024-10-08T03:13:32.861Z - info: Using extension xlsx@4.2.0
+2024-10-08T03:13:32.863Z - info: Using extension public-templates@4.0.0
+2024-10-08T03:13:32.864Z - info: Using extension sample-template@4.0.0
+2024-10-08T03:13:32.866Z - info: Using extension studio-theme-dark@4.0.0
+2024-10-08T03:13:32.867Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-10-08T03:13:32.867Z - info: Using fs provider for template store.
+2024-10-08T03:13:32.871Z - info: fs store is persisting using fs for C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\data
+2024-10-08T03:13:32.875Z - info: fs store is loading data
+2024-10-08T03:13:32.879Z - info: fs store is initialized successfully
+2024-10-08T03:13:32.887Z - info: Creating default express app.
+2024-10-08T03:13:32.902Z - info: jsreport server successfully started on http port: 5488
+2024-10-08T03:13:32.904Z - info: Verifying license key free
+2024-10-08T03:13:32.905Z - info: Using free license
+2024-10-08T03:13:32.923Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2024-10-08T03:13:32.928Z - info: Migration successful
+2024-10-08T03:13:32.929Z - info: Initializing worker threads
+2024-10-08T03:13:33.566Z - info: 2 worker threads initialized in 637ms
+2024-10-08T03:13:33.567Z - info: Starting temp files cleanup with 180000ms threshold
+2024-10-08T03:13:33.567Z - info: reporter initialized
+2024-10-08T03:18:35.917Z - info: Render request 1 queued for execution and waiting for available worker rootId=9gn8m0cc9ei3h7h, id=9gn8m0cc9ei3h7h
+2024-10-08T03:18:35.933Z - info: Starting rendering request 1 rootId=9gn8m0cc9ei3h7h, id=9gn8m0cc9ei3h7h
+2024-10-08T03:18:35.933Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9gn8m0cc9ei3h7h, id=9gn8m0cc9ei3h7h
+2024-10-08T03:18:36.561Z - warn: Error when processing render request 1
+(because) error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) "asset" helper call failed
+(because) asset demotors_logo.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset demotors_logo.png not found
+  at module.exports (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at readAsset (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+  at async Object.read (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+  at async Object.asset (system-helpers.js:293:20)
+  at async C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:271:28
+  at async Promise.all (index 1)
+  at async executionFn (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:270:11)
+  at async run (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset demotors_logo.png not found
+  at module.exports (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at getEnhancedHelperError (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:54)
+  at C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:443:15
+  at async C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:271:28
+  at async Promise.all (index 1)
+  at async executionFn (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:270:11)
+  at async run (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) "asset" helper call failed
+(because) asset demotors_logo.png not found
+  at module.exports (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at executeEngine (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+  at async engine.engine (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=9gn8m0cc9ei3h7h, id=9gn8m0cc9ei3h7h
+2024-10-08T03:18:36.561Z - warn: Rendering request 1 finished with error in 647 ms rootId=9gn8m0cc9ei3h7h, id=9gn8m0cc9ei3h7h
+2024-10-08T03:19:44.958Z - info: Render request 2 queued for execution and waiting for available worker rootId=3lvq7d5csx5jloz, id=3lvq7d5csx5jloz
+2024-10-08T03:19:44.969Z - info: Starting rendering request 2 rootId=3lvq7d5csx5jloz, id=3lvq7d5csx5jloz
+2024-10-08T03:19:44.969Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3lvq7d5csx5jloz, id=3lvq7d5csx5jloz
+2024-10-08T03:19:46.136Z - info: Rendering request 2 finished in 1180 ms rootId=3lvq7d5csx5jloz, id=3lvq7d5csx5jloz
+2024-10-08T03:20:54.907Z - info: Render request 3 queued for execution and waiting for available worker rootId=6zk5mujpuy22inp, id=6zk5mujpuy22inp
+2024-10-08T03:20:54.914Z - info: Starting rendering request 3 rootId=6zk5mujpuy22inp, id=6zk5mujpuy22inp
+2024-10-08T03:20:54.914Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6zk5mujpuy22inp, id=6zk5mujpuy22inp
+2024-10-08T03:20:55.631Z - info: Rendering request 3 finished in 725 ms rootId=6zk5mujpuy22inp, id=6zk5mujpuy22inp
+2024-10-08T03:23:06.948Z - info: Render request 4 queued for execution and waiting for available worker rootId=chd6n65ee3hggeu, id=chd6n65ee3hggeu
+2024-10-08T03:23:06.957Z - info: Starting rendering request 4 rootId=chd6n65ee3hggeu, id=chd6n65ee3hggeu
+2024-10-08T03:23:06.957Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=chd6n65ee3hggeu, id=chd6n65ee3hggeu
+2024-10-08T03:23:07.294Z - info: Rendering request 4 finished in 347 ms rootId=chd6n65ee3hggeu, id=chd6n65ee3hggeu
+2024-10-08T03:23:16.094Z - info: Render request 5 queued for execution and waiting for available worker rootId=4ecsruuu3rorepo, id=4ecsruuu3rorepo
+2024-10-08T03:23:16.102Z - info: Starting rendering request 5 rootId=4ecsruuu3rorepo, id=4ecsruuu3rorepo
+2024-10-08T03:23:16.102Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4ecsruuu3rorepo, id=4ecsruuu3rorepo
+2024-10-08T03:23:16.527Z - info: Rendering request 5 finished in 434 ms rootId=4ecsruuu3rorepo, id=4ecsruuu3rorepo
+2024-10-08T03:24:11.492Z - info: Render request 6 queued for execution and waiting for available worker rootId=v1jajhjmts9o5da, id=v1jajhjmts9o5da
+2024-10-08T03:24:11.500Z - info: Starting rendering request 6 rootId=v1jajhjmts9o5da, id=v1jajhjmts9o5da
+2024-10-08T03:24:11.500Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=v1jajhjmts9o5da, id=v1jajhjmts9o5da
+2024-10-08T03:24:11.741Z - info: Rendering request 6 finished in 250 ms rootId=v1jajhjmts9o5da, id=v1jajhjmts9o5da
+2024-10-08T03:24:49.911Z - info: Render request 7 queued for execution and waiting for available worker rootId=h4kyke15z245xpq, id=h4kyke15z245xpq
+2024-10-08T03:24:49.917Z - info: Starting rendering request 7 rootId=h4kyke15z245xpq, id=h4kyke15z245xpq
+2024-10-08T03:24:49.917Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=h4kyke15z245xpq, id=h4kyke15z245xpq
+2024-10-08T03:24:50.144Z - info: Rendering request 7 finished in 234 ms rootId=h4kyke15z245xpq, id=h4kyke15z245xpq
+2024-10-08T03:25:18.540Z - info: Render request 8 queued for execution and waiting for available worker rootId=qlhxjz3h5mhepib, id=qlhxjz3h5mhepib
+2024-10-08T03:25:18.545Z - info: Starting rendering request 8 rootId=qlhxjz3h5mhepib, id=qlhxjz3h5mhepib
+2024-10-08T03:25:18.545Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=qlhxjz3h5mhepib, id=qlhxjz3h5mhepib
+2024-10-08T03:25:18.776Z - info: Rendering request 8 finished in 238 ms rootId=qlhxjz3h5mhepib, id=qlhxjz3h5mhepib
+2024-10-08T03:25:22.019Z - info: Render request 9 queued for execution and waiting for available worker rootId=jd1j7ovj14ltt32, id=jd1j7ovj14ltt32
+2024-10-08T03:25:22.028Z - info: Starting rendering request 9 rootId=jd1j7ovj14ltt32, id=jd1j7ovj14ltt32
+2024-10-08T03:25:22.028Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=jd1j7ovj14ltt32, id=jd1j7ovj14ltt32
+2024-10-08T03:25:22.237Z - info: Rendering request 9 finished in 219 ms rootId=jd1j7ovj14ltt32, id=jd1j7ovj14ltt32
+2024-10-08T03:25:43.458Z - info: Render request 10 queued for execution and waiting for available worker rootId=ebafohiy9ua62vh, id=ebafohiy9ua62vh
+2024-10-08T03:25:43.465Z - info: Starting rendering request 10 rootId=ebafohiy9ua62vh, id=ebafohiy9ua62vh
+2024-10-08T03:25:43.465Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ebafohiy9ua62vh, id=ebafohiy9ua62vh
+2024-10-08T03:25:43.689Z - info: Rendering request 10 finished in 232 ms rootId=ebafohiy9ua62vh, id=ebafohiy9ua62vh
+2024-10-08T03:26:10.224Z - info: Render request 11 queued for execution and waiting for available worker rootId=dmvbf2hwldqd3bj, id=dmvbf2hwldqd3bj
+2024-10-08T03:26:10.230Z - info: Starting rendering request 11 rootId=dmvbf2hwldqd3bj, id=dmvbf2hwldqd3bj
+2024-10-08T03:26:10.230Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=dmvbf2hwldqd3bj, id=dmvbf2hwldqd3bj
+2024-10-08T03:26:10.486Z - info: Rendering request 11 finished in 264 ms rootId=dmvbf2hwldqd3bj, id=dmvbf2hwldqd3bj
+2024-10-08T03:26:14.222Z - info: Render request 12 queued for execution and waiting for available worker rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs
+2024-10-08T03:26:14.227Z - info: Starting rendering request 12 rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs
+2024-10-08T03:26:14.227Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs
+2024-10-08T03:26:14.488Z - info: Rendering request 12 finished in 267 ms rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs

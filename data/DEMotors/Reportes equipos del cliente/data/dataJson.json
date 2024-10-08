@@ -1,0 +1,12 @@
+{
+    "nombreEmpresa": "Demotors",
+    "dataEquipos": [
+        {
+            "NAME": "Juan",
+            "DIRECTION": "Ejemplo",
+            "NO_SERIE": "32131231",
+            "DATE": "03/10/2024",
+            "WORK_DONE": "SI"
+        }
+    ]
+}
