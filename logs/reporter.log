@@ -163,3 +163,83 @@ Error: Error when evaluating engine handlebars for template /DEMotors/Reportes e
 2024-10-08T03:26:14.227Z - info: Starting rendering request 12 rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs
 2024-10-08T03:26:14.227Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs
 2024-10-08T03:26:14.488Z - info: Rendering request 12 finished in 267 ms rootId=3xrujkon69pv3zs, id=3xrujkon69pv3zs
+2024-10-08T04:16:31.280Z - info: Render request 13 queued for execution and waiting for available worker rootId=egh44mst3r44x9l, id=egh44mst3r44x9l
+2024-10-08T04:16:31.288Z - info: Starting rendering request 13 rootId=egh44mst3r44x9l, id=egh44mst3r44x9l
+2024-10-08T04:16:31.288Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=egh44mst3r44x9l, id=egh44mst3r44x9l
+2024-10-08T04:16:31.639Z - info: Rendering request 13 finished in 361 ms rootId=egh44mst3r44x9l, id=egh44mst3r44x9l
+2024-10-08T04:16:43.826Z - info: Render request 14 queued for execution and waiting for available worker rootId=jun3a2ahx3o9kds, id=jun3a2ahx3o9kds
+2024-10-08T04:16:43.835Z - info: Starting rendering request 14 rootId=jun3a2ahx3o9kds, id=jun3a2ahx3o9kds
+2024-10-08T04:16:43.835Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jun3a2ahx3o9kds, id=jun3a2ahx3o9kds
+2024-10-08T04:16:44.102Z - info: Rendering request 14 finished in 277 ms rootId=jun3a2ahx3o9kds, id=jun3a2ahx3o9kds
+2024-10-08T04:16:53.123Z - info: Render request 15 queued for execution and waiting for available worker rootId=0rw05hlj169cdwd, id=0rw05hlj169cdwd
+2024-10-08T04:16:53.131Z - info: Starting rendering request 15 rootId=0rw05hlj169cdwd, id=0rw05hlj169cdwd
+2024-10-08T04:16:53.131Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=0rw05hlj169cdwd, id=0rw05hlj169cdwd
+2024-10-08T04:16:53.378Z - info: Rendering request 15 finished in 257 ms rootId=0rw05hlj169cdwd, id=0rw05hlj169cdwd
+2024-10-09T04:42:30.612Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
+2024-10-09T04:42:30.615Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-09T04:42:30.626Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-09T04:42:30.649Z - info: Found 35 extension(s)
+2024-10-09T04:42:30.718Z - info: Using extension base@4.0.0
+2024-10-09T04:42:30.722Z - info: Using extension child-templates@4.1.0
+2024-10-09T04:42:30.725Z - info: Using extension cli@4.0.4
+2024-10-09T04:42:30.727Z - info: Using extension components@4.0.2
+2024-10-09T04:42:30.729Z - info: Using extension data@4.1.0
+2024-10-09T04:42:30.731Z - info: Using extension express@4.1.2
+2024-10-09T04:42:31.160Z - info: Using extension freeze@4.0.0
+2024-10-09T04:42:31.163Z - info: Using extension fs-store@4.0.4
+2024-10-09T04:42:31.336Z - info: Using extension handlebars@4.0.1
+2024-10-09T04:42:31.338Z - info: Using extension import-export@4.0.4
+2024-10-09T04:42:31.351Z - info: Using extension jsrender@4.0.0
+2024-10-09T04:42:31.352Z - info: Using extension licensing@4.0.2
+2024-10-09T04:42:31.358Z - info: Using extension localization@4.0.1
+2024-10-09T04:42:31.360Z - info: Using extension npm@4.0.0
+2024-10-09T04:42:31.363Z - info: Using extension pdf-utils@4.2.1
+2024-10-09T04:42:31.365Z - info: Using extension reports@4.1.2
+2024-10-09T04:42:31.369Z - info: Using extension tags@4.0.1
+2024-10-09T04:42:31.372Z - info: Using extension text@4.0.2
+2024-10-09T04:42:31.373Z - info: Using extension version-control@4.0.0
+2024-10-09T04:42:31.388Z - info: Using extension assets@4.1.1
+2024-10-09T04:42:31.402Z - info: Using extension authorization@4.0.0
+2024-10-09T04:42:31.407Z - info: Using extension browser-client@4.1.0
+2024-10-09T04:42:31.411Z - info: Using extension chrome-pdf@4.1.0
+2024-10-09T04:42:31.414Z - info: Using extension docx@4.5.0
+2024-10-09T04:42:31.417Z - info: Using extension html-to-xlsx@4.1.2
+2024-10-09T04:42:31.941Z - info: html-to-xlsx detected chrome as available html engine
+2024-10-09T04:42:31.942Z - info: Using extension pptx@4.3.1
+2024-10-09T04:42:31.945Z - info: Using extension scheduling@4.0.0
+2024-10-09T04:42:31.989Z - info: Using extension scripts@4.1.0
+2024-10-09T04:42:31.991Z - info: Using extension static-pdf@4.1.0
+2024-10-09T04:42:31.992Z - info: Using extension studio@4.1.1
+2024-10-09T04:42:32.075Z - info: Using extension xlsx@4.2.0
+2024-10-09T04:42:32.077Z - info: Using extension public-templates@4.0.0
+2024-10-09T04:42:32.079Z - info: Using extension sample-template@4.0.0
+2024-10-09T04:42:32.081Z - info: Using extension studio-theme-dark@4.0.0
+2024-10-09T04:42:32.083Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-10-09T04:42:32.083Z - info: Using fs provider for template store.
+2024-10-09T04:42:32.086Z - info: fs store is persisting using fs for C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\data
+2024-10-09T04:42:32.091Z - info: fs store is loading data
+2024-10-09T04:42:32.105Z - info: fs store is initialized successfully
+2024-10-09T04:42:32.113Z - info: Creating default express app.
+2024-10-09T04:42:32.152Z - info: jsreport server successfully started on http port: 5488
+2024-10-09T04:42:32.153Z - info: Verifying license key free
+2024-10-09T04:42:32.154Z - info: Using free license
+2024-10-09T04:42:32.157Z - info: Initializing worker threads
+2024-10-09T04:42:33.015Z - info: 2 worker threads initialized in 857ms
+2024-10-09T04:42:33.015Z - info: Starting temp files cleanup with 180000ms threshold
+2024-10-09T04:42:33.016Z - info: reporter initialized
+2024-10-09T04:46:24.903Z - info: Render request 1 queued for execution and waiting for available worker rootId=ua4kmuweusxjr71, id=ua4kmuweusxjr71
+2024-10-09T04:46:24.921Z - info: Starting rendering request 1 rootId=ua4kmuweusxjr71, id=ua4kmuweusxjr71
+2024-10-09T04:46:24.922Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ua4kmuweusxjr71, id=ua4kmuweusxjr71
+2024-10-09T04:46:26.903Z - info: Rendering request 1 finished in 2004 ms rootId=ua4kmuweusxjr71, id=ua4kmuweusxjr71
+2024-10-09T04:47:23.397Z - info: Render request 2 queued for execution and waiting for available worker rootId=vdt3c6dktqhnphe, id=vdt3c6dktqhnphe
+2024-10-09T04:47:23.409Z - info: Starting rendering request 2 rootId=vdt3c6dktqhnphe, id=vdt3c6dktqhnphe
+2024-10-09T04:47:23.410Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vdt3c6dktqhnphe, id=vdt3c6dktqhnphe
+2024-10-09T04:47:24.676Z - info: Rendering request 2 finished in 1281 ms rootId=vdt3c6dktqhnphe, id=vdt3c6dktqhnphe
+2024-10-09T04:48:13.183Z - info: Render request 3 queued for execution and waiting for available worker rootId=d8pkp74n5ct21m0, id=d8pkp74n5ct21m0
+2024-10-09T04:48:13.192Z - info: Starting rendering request 3 rootId=d8pkp74n5ct21m0, id=d8pkp74n5ct21m0
+2024-10-09T04:48:13.192Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=d8pkp74n5ct21m0, id=d8pkp74n5ct21m0
+2024-10-09T04:48:13.658Z - info: Rendering request 3 finished in 477 ms rootId=d8pkp74n5ct21m0, id=d8pkp74n5ct21m0
+2024-10-09T04:48:28.858Z - info: Render request 4 queued for execution and waiting for available worker rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0
+2024-10-09T04:48:28.866Z - info: Starting rendering request 4 rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0
+2024-10-09T04:48:28.866Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0
+2024-10-09T04:48:29.271Z - info: Rendering request 4 finished in 414 ms rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0

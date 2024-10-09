@@ -1,0 +1,13 @@
+{
+    "nombreEmpresa": "Demotors",
+    "dataOrdenesServicios": [
+        {
+            "NUM_ORDER": "3232132",
+            "CLIENT": "Juan",
+            "DIRECTION": "Ejemplo",
+            "NUM_SERIE": "32131231",
+            "DATE": "03/10/2024",
+            "WORK_DONE": "SI"
+        }
+    ]
+}
