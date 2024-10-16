@@ -2,7 +2,7 @@
     "nombreEmpresa": "Demotors",
     "dataEquipos": [
         {
-            "NAME": "Juan",
+            "CLIENT": "Juan",
             "DIRECTION": "Ejemplo",
             "NO_SERIE": "32131231",
             "DATE": "03/10/2024",

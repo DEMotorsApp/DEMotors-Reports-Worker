@@ -243,3 +243,202 @@ Error: Error when evaluating engine handlebars for template /DEMotors/Reportes e
 2024-10-09T04:48:28.866Z - info: Starting rendering request 4 rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0
 2024-10-09T04:48:28.866Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0
 2024-10-09T04:48:29.271Z - info: Rendering request 4 finished in 414 ms rootId=hkpkii4blc1f3r0, id=hkpkii4blc1f3r0
+2024-10-10T03:52:51.768Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
+2024-10-10T03:52:51.771Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-10T03:52:51.781Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-10T03:52:51.817Z - info: Found 35 extension(s)
+2024-10-10T03:52:51.915Z - info: Using extension base@4.0.0
+2024-10-10T03:52:51.919Z - info: Using extension child-templates@4.1.0
+2024-10-10T03:52:51.923Z - info: Using extension cli@4.0.4
+2024-10-10T03:52:51.925Z - info: Using extension components@4.0.2
+2024-10-10T03:52:51.927Z - info: Using extension data@4.1.0
+2024-10-10T03:52:51.928Z - info: Using extension express@4.1.2
+2024-10-10T03:52:52.335Z - info: Using extension freeze@4.0.0
+2024-10-10T03:52:52.337Z - info: Using extension fs-store@4.0.4
+2024-10-10T03:52:52.492Z - info: Using extension handlebars@4.0.1
+2024-10-10T03:52:52.493Z - info: Using extension import-export@4.0.4
+2024-10-10T03:52:52.506Z - info: Using extension jsrender@4.0.0
+2024-10-10T03:52:52.507Z - info: Using extension licensing@4.0.2
+2024-10-10T03:52:52.513Z - info: Using extension localization@4.0.1
+2024-10-10T03:52:52.514Z - info: Using extension npm@4.0.0
+2024-10-10T03:52:52.517Z - info: Using extension pdf-utils@4.2.1
+2024-10-10T03:52:52.519Z - info: Using extension reports@4.1.2
+2024-10-10T03:52:52.523Z - info: Using extension tags@4.0.1
+2024-10-10T03:52:52.529Z - info: Using extension text@4.0.2
+2024-10-10T03:52:52.531Z - info: Using extension version-control@4.0.0
+2024-10-10T03:52:52.540Z - info: Using extension assets@4.1.1
+2024-10-10T03:52:52.554Z - info: Using extension authorization@4.0.0
+2024-10-10T03:52:52.559Z - info: Using extension browser-client@4.1.0
+2024-10-10T03:52:52.562Z - info: Using extension chrome-pdf@4.1.0
+2024-10-10T03:52:52.566Z - info: Using extension docx@4.5.0
+2024-10-10T03:52:52.568Z - info: Using extension html-to-xlsx@4.1.2
+2024-10-10T03:52:53.054Z - info: html-to-xlsx detected chrome as available html engine
+2024-10-10T03:52:53.055Z - info: Using extension pptx@4.3.1
+2024-10-10T03:52:53.058Z - info: Using extension scheduling@4.0.0
+2024-10-10T03:52:53.093Z - info: Using extension scripts@4.1.0
+2024-10-10T03:52:53.094Z - info: Using extension static-pdf@4.1.0
+2024-10-10T03:52:53.095Z - info: Using extension studio@4.1.1
+2024-10-10T03:52:53.178Z - info: Using extension xlsx@4.2.0
+2024-10-10T03:52:53.180Z - info: Using extension public-templates@4.0.0
+2024-10-10T03:52:53.182Z - info: Using extension sample-template@4.0.0
+2024-10-10T03:52:53.184Z - info: Using extension studio-theme-dark@4.0.0
+2024-10-10T03:52:53.186Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-10-10T03:52:53.186Z - info: Using fs provider for template store.
+2024-10-10T03:52:53.190Z - info: fs store is persisting using fs for C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\data
+2024-10-10T03:52:53.195Z - info: fs store is loading data
+2024-10-10T03:52:53.213Z - info: fs store is initialized successfully
+2024-10-10T03:52:53.221Z - info: Creating default express app.
+2024-10-10T03:52:53.250Z - info: jsreport server successfully started on http port: 5488
+2024-10-10T03:52:53.251Z - info: Verifying license key free
+2024-10-10T03:52:53.252Z - info: Using free license
+2024-10-10T03:52:53.255Z - info: Initializing worker threads
+2024-10-10T03:52:53.940Z - info: 2 worker threads initialized in 685ms
+2024-10-10T03:52:53.941Z - info: Starting temp files cleanup with 180000ms threshold
+2024-10-10T03:52:53.942Z - info: reporter initialized
+2024-10-10T04:45:32.248Z - info: Render request 1 queued for execution and waiting for available worker rootId=vb9gh7vlc95rfyt, id=vb9gh7vlc95rfyt
+2024-10-10T04:45:32.273Z - info: Starting rendering request 1 rootId=vb9gh7vlc95rfyt, id=vb9gh7vlc95rfyt
+2024-10-10T04:45:32.273Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=vb9gh7vlc95rfyt, id=vb9gh7vlc95rfyt
+2024-10-10T04:45:34.219Z - info: Rendering request 1 finished in 1974 ms rootId=vb9gh7vlc95rfyt, id=vb9gh7vlc95rfyt
+2024-10-10T04:46:10.257Z - info: Render request 2 queued for execution and waiting for available worker rootId=yzsoostcwcq9dq3, id=yzsoostcwcq9dq3
+2024-10-10T04:46:10.265Z - info: Starting rendering request 2 rootId=yzsoostcwcq9dq3, id=yzsoostcwcq9dq3
+2024-10-10T04:46:10.266Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=yzsoostcwcq9dq3, id=yzsoostcwcq9dq3
+2024-10-10T04:46:11.420Z - info: Rendering request 2 finished in 1164 ms rootId=yzsoostcwcq9dq3, id=yzsoostcwcq9dq3
+2024-10-10T04:46:14.138Z - info: Render request 3 queued for execution and waiting for available worker rootId=zf864kcc9p6eptu, id=zf864kcc9p6eptu
+2024-10-10T04:46:14.145Z - info: Starting rendering request 3 rootId=zf864kcc9p6eptu, id=zf864kcc9p6eptu
+2024-10-10T04:46:14.145Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=zf864kcc9p6eptu, id=zf864kcc9p6eptu
+2024-10-10T04:46:14.506Z - info: Rendering request 3 finished in 369 ms rootId=zf864kcc9p6eptu, id=zf864kcc9p6eptu
+2024-10-10T05:00:38.983Z - info: Render request 4 queued for execution and waiting for available worker rootId=a7s1ipsyvj6cu5e, id=a7s1ipsyvj6cu5e
+2024-10-10T05:00:38.990Z - info: Starting rendering request 4 rootId=a7s1ipsyvj6cu5e, id=a7s1ipsyvj6cu5e
+2024-10-10T05:00:38.990Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=a7s1ipsyvj6cu5e, id=a7s1ipsyvj6cu5e
+2024-10-10T05:00:39.526Z - info: Rendering request 4 finished in 545 ms rootId=a7s1ipsyvj6cu5e, id=a7s1ipsyvj6cu5e
+2024-10-10T20:01:23.714Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
+2024-10-10T20:01:23.717Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-10T20:01:23.725Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-10T20:01:23.757Z - info: Found 35 extension(s)
+2024-10-10T20:01:23.829Z - info: Using extension base@4.0.0
+2024-10-10T20:01:23.834Z - info: Using extension child-templates@4.1.0
+2024-10-10T20:01:23.837Z - info: Using extension cli@4.0.4
+2024-10-10T20:01:23.839Z - info: Using extension components@4.0.2
+2024-10-10T20:01:23.841Z - info: Using extension data@4.1.0
+2024-10-10T20:01:23.842Z - info: Using extension express@4.1.2
+2024-10-10T20:01:24.253Z - info: Using extension freeze@4.0.0
+2024-10-10T20:01:24.256Z - info: Using extension fs-store@4.0.4
+2024-10-10T20:01:24.409Z - info: Using extension handlebars@4.0.1
+2024-10-10T20:01:24.410Z - info: Using extension import-export@4.0.4
+2024-10-10T20:01:24.424Z - info: Using extension jsrender@4.0.0
+2024-10-10T20:01:24.425Z - info: Using extension licensing@4.0.2
+2024-10-10T20:01:24.431Z - info: Using extension localization@4.0.1
+2024-10-10T20:01:24.432Z - info: Using extension npm@4.0.0
+2024-10-10T20:01:24.435Z - info: Using extension pdf-utils@4.2.1
+2024-10-10T20:01:24.437Z - info: Using extension reports@4.1.2
+2024-10-10T20:01:24.441Z - info: Using extension tags@4.0.1
+2024-10-10T20:01:24.443Z - info: Using extension text@4.0.2
+2024-10-10T20:01:24.448Z - info: Using extension version-control@4.0.0
+2024-10-10T20:01:24.458Z - info: Using extension assets@4.1.1
+2024-10-10T20:01:24.470Z - info: Using extension authorization@4.0.0
+2024-10-10T20:01:24.475Z - info: Using extension browser-client@4.1.0
+2024-10-10T20:01:24.478Z - info: Using extension chrome-pdf@4.1.0
+2024-10-10T20:01:24.481Z - info: Using extension docx@4.5.0
+2024-10-10T20:01:24.483Z - info: Using extension html-to-xlsx@4.1.2
+2024-10-10T20:01:24.953Z - info: html-to-xlsx detected chrome as available html engine
+2024-10-10T20:01:24.953Z - info: Using extension pptx@4.3.1
+2024-10-10T20:01:24.955Z - info: Using extension scheduling@4.0.0
+2024-10-10T20:01:24.992Z - info: Using extension scripts@4.1.0
+2024-10-10T20:01:24.994Z - info: Using extension static-pdf@4.1.0
+2024-10-10T20:01:24.995Z - info: Using extension studio@4.1.1
+2024-10-10T20:01:25.087Z - info: Using extension xlsx@4.2.0
+2024-10-10T20:01:25.089Z - info: Using extension public-templates@4.0.0
+2024-10-10T20:01:25.091Z - info: Using extension sample-template@4.0.0
+2024-10-10T20:01:25.093Z - info: Using extension studio-theme-dark@4.0.0
+2024-10-10T20:01:25.096Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-10-10T20:01:25.096Z - info: Using fs provider for template store.
+2024-10-10T20:01:25.100Z - info: fs store is persisting using fs for C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\data
+2024-10-10T20:01:25.105Z - info: fs store is loading data
+2024-10-10T20:01:25.121Z - info: fs store is initialized successfully
+2024-10-10T20:01:25.133Z - info: Creating default express app.
+2024-10-10T20:01:25.165Z - info: jsreport server successfully started on http port: 5488
+2024-10-10T20:01:25.166Z - info: Verifying license key free
+2024-10-10T20:01:25.167Z - info: Using free license
+2024-10-10T20:01:25.170Z - info: Initializing worker threads
+2024-10-10T20:01:25.918Z - info: 2 worker threads initialized in 748ms
+2024-10-10T20:01:25.919Z - info: Starting temp files cleanup with 180000ms threshold
+2024-10-10T20:01:25.920Z - info: reporter initialized
+2024-10-10T20:16:10.065Z - info: Render request 1 queued for execution and waiting for available worker rootId=6irs87lum0qcata, id=6irs87lum0qcata
+2024-10-10T20:16:10.088Z - info: Starting rendering request 1 rootId=6irs87lum0qcata, id=6irs87lum0qcata
+2024-10-10T20:16:10.089Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6irs87lum0qcata, id=6irs87lum0qcata
+2024-10-10T20:16:11.953Z - info: Rendering request 1 finished in 1891 ms rootId=6irs87lum0qcata, id=6irs87lum0qcata
+2024-10-10T20:17:35.927Z - info: Render request 2 queued for execution and waiting for available worker rootId=qvlngqi3r71gd3v, id=qvlngqi3r71gd3v
+2024-10-10T20:17:35.936Z - info: Starting rendering request 2 rootId=qvlngqi3r71gd3v, id=qvlngqi3r71gd3v
+2024-10-10T20:17:35.937Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=qvlngqi3r71gd3v, id=qvlngqi3r71gd3v
+2024-10-10T20:17:37.180Z - info: Rendering request 2 finished in 1254 ms rootId=qvlngqi3r71gd3v, id=qvlngqi3r71gd3v
+2024-10-10T20:18:20.123Z - info: Render request 3 queued for execution and waiting for available worker rootId=g0qviz2a4uuvpov, id=g0qviz2a4uuvpov
+2024-10-10T20:18:20.130Z - info: Starting rendering request 3 rootId=g0qviz2a4uuvpov, id=g0qviz2a4uuvpov
+2024-10-10T20:18:20.130Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=g0qviz2a4uuvpov, id=g0qviz2a4uuvpov
+2024-10-10T20:18:20.482Z - info: Rendering request 3 finished in 360 ms rootId=g0qviz2a4uuvpov, id=g0qviz2a4uuvpov
+2024-10-15T04:03:18.941Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
+2024-10-15T04:03:18.944Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-15T04:03:18.954Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-15T04:03:18.991Z - info: Found 35 extension(s)
+2024-10-15T04:03:19.064Z - info: Using extension base@4.0.0
+2024-10-15T04:03:19.070Z - info: Using extension child-templates@4.1.0
+2024-10-15T04:03:19.073Z - info: Using extension cli@4.0.4
+2024-10-15T04:03:19.075Z - info: Using extension components@4.0.2
+2024-10-15T04:03:19.077Z - info: Using extension data@4.1.0
+2024-10-15T04:03:19.079Z - info: Using extension express@4.1.2
+2024-10-15T04:03:19.579Z - info: Using extension freeze@4.0.0
+2024-10-15T04:03:19.582Z - info: Using extension fs-store@4.0.4
+2024-10-15T04:03:19.749Z - info: Using extension handlebars@4.0.1
+2024-10-15T04:03:19.751Z - info: Using extension import-export@4.0.4
+2024-10-15T04:03:19.762Z - info: Using extension jsrender@4.0.0
+2024-10-15T04:03:19.763Z - info: Using extension licensing@4.0.2
+2024-10-15T04:03:19.769Z - info: Using extension localization@4.0.1
+2024-10-15T04:03:19.770Z - info: Using extension npm@4.0.0
+2024-10-15T04:03:19.773Z - info: Using extension pdf-utils@4.2.1
+2024-10-15T04:03:19.776Z - info: Using extension reports@4.1.2
+2024-10-15T04:03:19.779Z - info: Using extension tags@4.0.1
+2024-10-15T04:03:19.786Z - info: Using extension text@4.0.2
+2024-10-15T04:03:19.787Z - info: Using extension version-control@4.0.0
+2024-10-15T04:03:19.796Z - info: Using extension assets@4.1.1
+2024-10-15T04:03:19.810Z - info: Using extension authorization@4.0.0
+2024-10-15T04:03:19.816Z - info: Using extension browser-client@4.1.0
+2024-10-15T04:03:19.820Z - info: Using extension chrome-pdf@4.1.0
+2024-10-15T04:03:19.823Z - info: Using extension docx@4.5.0
+2024-10-15T04:03:19.825Z - info: Using extension html-to-xlsx@4.1.2
+2024-10-15T04:03:20.316Z - info: html-to-xlsx detected chrome as available html engine
+2024-10-15T04:03:20.317Z - info: Using extension pptx@4.3.1
+2024-10-15T04:03:20.319Z - info: Using extension scheduling@4.0.0
+2024-10-15T04:03:20.362Z - info: Using extension scripts@4.1.0
+2024-10-15T04:03:20.363Z - info: Using extension static-pdf@4.1.0
+2024-10-15T04:03:20.364Z - info: Using extension studio@4.1.1
+2024-10-15T04:03:20.445Z - info: Using extension xlsx@4.2.0
+2024-10-15T04:03:20.448Z - info: Using extension public-templates@4.0.0
+2024-10-15T04:03:20.451Z - info: Using extension sample-template@4.0.0
+2024-10-15T04:03:20.454Z - info: Using extension studio-theme-dark@4.0.0
+2024-10-15T04:03:20.456Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-10-15T04:03:20.456Z - info: Using fs provider for template store.
+2024-10-15T04:03:20.459Z - info: fs store is persisting using fs for C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\data
+2024-10-15T04:03:20.464Z - info: fs store is loading data
+2024-10-15T04:03:20.480Z - info: fs store is initialized successfully
+2024-10-15T04:03:20.489Z - info: Creating default express app.
+2024-10-15T04:03:20.520Z - info: jsreport server successfully started on http port: 5488
+2024-10-15T04:03:20.521Z - info: Verifying license key free
+2024-10-15T04:03:20.521Z - info: Using free license
+2024-10-15T04:03:20.524Z - info: Initializing worker threads
+2024-10-15T04:03:21.295Z - info: 2 worker threads initialized in 771ms
+2024-10-15T04:03:21.295Z - info: Starting temp files cleanup with 180000ms threshold
+2024-10-15T04:03:21.296Z - info: reporter initialized
+2024-10-15T06:21:16.526Z - info: Render request 1 queued for execution and waiting for available worker rootId=wdm24ry2z5bwms3, id=wdm24ry2z5bwms3
+2024-10-15T06:21:16.564Z - info: Starting rendering request 1 rootId=wdm24ry2z5bwms3, id=wdm24ry2z5bwms3
+2024-10-15T06:21:16.564Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=wdm24ry2z5bwms3, id=wdm24ry2z5bwms3
+2024-10-15T06:21:18.989Z - info: Rendering request 1 finished in 2467 ms rootId=wdm24ry2z5bwms3, id=wdm24ry2z5bwms3
+2024-10-15T06:23:56.847Z - info: Render request 2 queued for execution and waiting for available worker rootId=r6utdww5cp3jzed, id=r6utdww5cp3jzed
+2024-10-15T06:23:56.856Z - info: Starting rendering request 2 rootId=r6utdww5cp3jzed, id=r6utdww5cp3jzed
+2024-10-15T06:23:56.857Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=r6utdww5cp3jzed, id=r6utdww5cp3jzed
+2024-10-15T06:23:58.409Z - info: Rendering request 2 finished in 1563 ms rootId=r6utdww5cp3jzed, id=r6utdww5cp3jzed
+2024-10-15T06:24:29.826Z - info: Render request 3 queued for execution and waiting for available worker rootId=opxai0gkhhxqyr1, id=opxai0gkhhxqyr1
+2024-10-15T06:24:29.834Z - info: Starting rendering request 3 rootId=opxai0gkhhxqyr1, id=opxai0gkhhxqyr1
+2024-10-15T06:24:29.834Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=opxai0gkhhxqyr1, id=opxai0gkhhxqyr1
+2024-10-15T06:24:30.279Z - info: Rendering request 3 finished in 455 ms rootId=opxai0gkhhxqyr1, id=opxai0gkhhxqyr1
+2024-10-16T04:46:09.265Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
+2024-10-16T04:46:09.268Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-10-16T04:46:09.275Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
