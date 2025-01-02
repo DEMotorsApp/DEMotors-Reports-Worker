@@ -442,3 +442,767 @@ Error: Error when evaluating engine handlebars for template /DEMotors/Reportes e
 2024-10-16T04:46:09.265Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 20.12.1)
 2024-10-16T04:46:09.268Z - info: Searching for available extensions in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
 2024-10-16T04:46:09.275Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\OneDrive\Documents\Proyectos\DEMotors-JsReport\
+2024-12-22T07:26:39.229Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2024-12-22T07:26:39.232Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-22T07:26:39.237Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-22T07:26:39.243Z - info: Found 35 extension(s)
+2024-12-22T07:26:39.281Z - info: Using extension base@4.0.0
+2024-12-22T07:26:39.284Z - info: Using extension child-templates@4.1.0
+2024-12-22T07:26:39.286Z - info: Using extension cli@4.0.4
+2024-12-22T07:26:39.288Z - info: Using extension components@4.0.2
+2024-12-22T07:26:39.289Z - info: Using extension data@4.1.0
+2024-12-22T07:26:39.290Z - info: Using extension express@4.1.2
+2024-12-22T07:26:39.540Z - info: Using extension freeze@4.0.0
+2024-12-22T07:26:39.541Z - info: Using extension fs-store@4.0.4
+2024-12-22T07:26:39.632Z - info: Using extension handlebars@4.0.1
+2024-12-22T07:26:39.633Z - info: Using extension import-export@4.0.4
+2024-12-22T07:26:39.642Z - info: Using extension jsrender@4.0.0
+2024-12-22T07:26:39.643Z - info: Using extension licensing@4.0.2
+2024-12-22T07:26:39.657Z - info: Using extension localization@4.0.1
+2024-12-22T07:26:39.658Z - info: Using extension npm@4.0.0
+2024-12-22T07:26:39.659Z - info: Using extension pdf-utils@4.2.1
+2024-12-22T07:26:39.660Z - info: Using extension reports@4.1.2
+2024-12-22T07:26:39.663Z - info: Using extension tags@4.0.1
+2024-12-22T07:26:39.664Z - info: Using extension text@4.0.2
+2024-12-22T07:26:39.665Z - info: Using extension version-control@4.0.0
+2024-12-22T07:26:39.670Z - info: Using extension assets@4.1.1
+2024-12-22T07:26:39.678Z - info: Using extension authorization@4.0.0
+2024-12-22T07:26:39.681Z - info: Using extension browser-client@4.1.0
+2024-12-22T07:26:39.682Z - info: Using extension chrome-pdf@4.1.0
+2024-12-22T07:26:39.684Z - info: Using extension docx@4.5.0
+2024-12-22T07:26:39.686Z - info: Using extension html-to-xlsx@4.1.2
+2024-12-22T07:26:39.986Z - info: html-to-xlsx detected chrome as available html engine
+2024-12-22T07:26:39.986Z - info: Using extension pptx@4.3.1
+2024-12-22T07:26:39.987Z - info: Using extension scheduling@4.0.0
+2024-12-22T07:26:40.005Z - info: Using extension scripts@4.1.0
+2024-12-22T07:26:40.006Z - info: Using extension static-pdf@4.1.0
+2024-12-22T07:26:40.007Z - info: Using extension studio@4.1.1
+2024-12-22T07:26:40.063Z - info: Using extension xlsx@4.2.0
+2024-12-22T07:26:40.064Z - info: Using extension public-templates@4.0.0
+2024-12-22T07:26:40.065Z - info: Using extension sample-template@4.0.0
+2024-12-22T07:26:40.067Z - info: Using extension studio-theme-dark@4.0.0
+2024-12-22T07:26:40.068Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-12-22T07:26:40.068Z - info: Using fs provider for template store.
+2024-12-22T07:26:40.070Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\data
+2024-12-22T07:26:40.072Z - info: fs store is loading data
+2024-12-22T07:26:40.081Z - info: fs store is initialized successfully
+2024-12-22T07:26:40.086Z - info: Creating default express app.
+2024-12-22T07:26:40.101Z - info: jsreport server successfully started on http port: 5488
+2024-12-22T07:26:40.102Z - info: Verifying license key free
+2024-12-22T07:26:40.104Z - info: Using free license
+2024-12-22T07:26:40.106Z - info: Initializing worker threads
+2024-12-22T07:26:40.627Z - info: 2 worker threads initialized in 521ms
+2024-12-22T07:26:40.627Z - info: Starting temp files cleanup with 180000ms threshold
+2024-12-22T07:26:40.628Z - info: reporter initialized
+2024-12-22T07:27:40.091Z - warn: Cleaning fs journal failed, will reload Unexpected end of JSON input stack=SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at module.exports.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\serializator\index.js:58:15)
+    at parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-fs-store\lib\customUtils.js:63:10)
+    at Object.clean (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-fs-store\lib\journal.js:199:24)
+    at async lock (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-fs-store\lib\customUtils.js:153:12)
+2024-12-22T08:03:48.812Z - info: Render request 1 queued for execution and waiting for available worker rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:48.840Z - info: Starting rendering request 1 rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:48.842Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:49.337Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:49.337Z - error: Rendering request 1 finished with error in 528 ms rootId=lc2hbo2wy2humnz, id=lc2hbo2wy2humnz
+2024-12-22T08:03:49.339Z - error: Error during processing request at http://localhost:5488/api/report
+2024-12-22T08:04:16.405Z - info: Render request 2 queued for execution and waiting for available worker rootId=65i4cylnm02rgds, id=65i4cylnm02rgds
+2024-12-22T08:04:16.412Z - info: Starting rendering request 2 rootId=65i4cylnm02rgds, id=65i4cylnm02rgds
+2024-12-22T08:04:16.412Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=65i4cylnm02rgds, id=65i4cylnm02rgds
+2024-12-22T08:04:16.951Z - info: Rendering request 2 finished in 547 ms rootId=65i4cylnm02rgds, id=65i4cylnm02rgds
+2024-12-22T08:04:36.890Z - info: Render request 3 queued for execution and waiting for available worker rootId=bkrdoydbd3dpns2, id=bkrdoydbd3dpns2
+2024-12-22T08:04:36.896Z - info: Starting rendering request 3 rootId=bkrdoydbd3dpns2, id=bkrdoydbd3dpns2
+2024-12-22T08:04:36.896Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=bkrdoydbd3dpns2, id=bkrdoydbd3dpns2
+2024-12-22T08:04:44.081Z - warn: Report render failed
+(because) report cancelled by the client or closed network
+Error: Report cancelled by the client or closed network
+    at Object.close (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:185:21)
+    at Object.release (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\pool.js:50:22)
+    at EventEmitter.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:402:18)
+    at Object.onceWrapper (node:events:632:28)
+    at EventEmitter.emit (node:events:518:28)
+    at Socket.onReqClose (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-express\lib\routes.js:68:20)
+    at Object.onceWrapper (node:events:633:26)
+    at Socket.emit (node:events:530:35)
+    at TCP.<anonymous> (node:net:343:12) rootId=bkrdoydbd3dpns2, id=bkrdoydbd3dpns2
+2024-12-22T08:04:44.082Z - warn: Error during processing request at http://localhost:5488/api/report, details: Report cancelled by the client or closed network, stack: Error: Report cancelled by the client or closed network
+    at Object.close (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:185:21)
+    at Object.release (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\pool.js:50:22)
+    at EventEmitter.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:402:18)
+    at Object.onceWrapper (node:events:632:28)
+    at EventEmitter.emit (node:events:518:28)
+    at Socket.onReqClose (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-express\lib\routes.js:68:20)
+    at Object.onceWrapper (node:events:633:26)
+    at Socket.emit (node:events:530:35)
+    at TCP.<anonymous> (node:net:343:12)
+2024-12-22T08:04:46.735Z - info: Render request 4 queued for execution and waiting for available worker rootId=1tyqzqp1na5wzk1, id=1tyqzqp1na5wzk1
+2024-12-22T08:04:46.740Z - info: Starting rendering request 4 rootId=1tyqzqp1na5wzk1, id=1tyqzqp1na5wzk1
+2024-12-22T08:04:46.740Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=1tyqzqp1na5wzk1, id=1tyqzqp1na5wzk1
+2024-12-22T08:04:47.221Z - info: Rendering request 4 finished in 486 ms rootId=1tyqzqp1na5wzk1, id=1tyqzqp1na5wzk1
+2024-12-22T08:09:34.689Z - info: Render request 5 queued for execution and waiting for available worker rootId=cf5j4sid5tephwl, id=cf5j4sid5tephwl
+2024-12-22T08:09:34.694Z - info: Starting rendering request 5 rootId=cf5j4sid5tephwl, id=cf5j4sid5tephwl
+2024-12-22T08:09:34.694Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=cf5j4sid5tephwl, id=cf5j4sid5tephwl
+2024-12-22T08:09:34.732Z - info: Rendering request 5 finished in 44 ms rootId=cf5j4sid5tephwl, id=cf5j4sid5tephwl
+2024-12-22T08:17:13.113Z - info: Render request 6 queued for execution and waiting for available worker rootId=82apmn2dm9fr1wg, id=82apmn2dm9fr1wg
+2024-12-22T08:17:13.125Z - info: Starting rendering request 6 rootId=82apmn2dm9fr1wg, id=82apmn2dm9fr1wg
+2024-12-22T08:17:13.125Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=82apmn2dm9fr1wg, id=82apmn2dm9fr1wg
+2024-12-22T08:17:13.164Z - warn: Error when processing render request 6
+(because) error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) missing helper: "$each"
+
+(sandbox.js line 13:18)
+Error: Missing helper: "$each"
+  at Object.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+  at Object.wrapper (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\ses\index.js:6197:27)), <anonymous>:39:100)
+  at main (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:260:42)
+  at eval (sandbox.js:13:18)
+  at async run (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+wrapped by:
+Error: Error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) missing helper: "$each"
+  at module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=82apmn2dm9fr1wg, id=82apmn2dm9fr1wg
+2024-12-22T08:17:13.164Z - warn: Rendering request 6 finished with error in 54 ms rootId=82apmn2dm9fr1wg, id=82apmn2dm9fr1wg
+2024-12-22T08:17:16.355Z - info: Render request 7 queued for execution and waiting for available worker rootId=44y14mvcfopcbit, id=44y14mvcfopcbit
+2024-12-22T08:17:16.362Z - info: Starting rendering request 7 rootId=44y14mvcfopcbit, id=44y14mvcfopcbit
+2024-12-22T08:17:16.362Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=44y14mvcfopcbit, id=44y14mvcfopcbit
+2024-12-22T08:17:16.379Z - warn: Error when processing render request 7
+(because) error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) missing helper: "$each"
+
+(sandbox.js line 13:18)
+Error: Missing helper: "$each"
+  at Object.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+  at Object.wrapper (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+  at Object.main (eval at <anonymous> (eval at makeEvaluate (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\ses\index.js:6197:27)), <anonymous>:39:100)
+  at main (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+  at ret (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+  at Object.execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+  at Object.execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+  at executionFn (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:260:42)
+  at eval (sandbox.js:13:18)
+  at async run (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+wrapped by:
+Error: Error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) missing helper: "$each"
+  at module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=44y14mvcfopcbit, id=44y14mvcfopcbit
+2024-12-22T08:17:16.379Z - warn: Rendering request 7 finished with error in 25 ms rootId=44y14mvcfopcbit, id=44y14mvcfopcbit
+2024-12-22T08:17:37.968Z - info: Render request 8 queued for execution and waiting for available worker rootId=iw4qfcahyk0sgle, id=iw4qfcahyk0sgle
+2024-12-22T08:17:37.975Z - info: Starting rendering request 8 rootId=iw4qfcahyk0sgle, id=iw4qfcahyk0sgle
+2024-12-22T08:17:37.976Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=iw4qfcahyk0sgle, id=iw4qfcahyk0sgle
+2024-12-22T08:17:37.987Z - warn: Error when processing render request 8
+(because) error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+
+(sandbox.js line 13:18)
+Error: Parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+  at Parser.parseError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+  at Parser.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+  at parseWithoutProcessing (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+  at HandlebarsEnvironment.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+  at Object.precompile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+  at hb.precompile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+  at Object.compile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+  at Object.compile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+  at executionFn (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:239:44)
+  at eval (sandbox.js:13:18)
+  at async run (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+  at module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=iw4qfcahyk0sgle, id=iw4qfcahyk0sgle
+2024-12-22T08:17:37.987Z - warn: Rendering request 8 finished with error in 20 ms rootId=iw4qfcahyk0sgle, id=iw4qfcahyk0sgle
+2024-12-22T08:17:44.673Z - info: Render request 9 queued for execution and waiting for available worker rootId=xbouax5iddhlfd2, id=xbouax5iddhlfd2
+2024-12-22T08:17:44.678Z - info: Starting rendering request 9 rootId=xbouax5iddhlfd2, id=xbouax5iddhlfd2
+2024-12-22T08:17:44.678Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xbouax5iddhlfd2, id=xbouax5iddhlfd2
+2024-12-22T08:17:44.695Z - warn: Error when processing render request 9
+(because) error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+
+(sandbox.js line 13:18)
+Error: Parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+  at Parser.parseError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+  at Parser.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+  at parseWithoutProcessing (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+  at HandlebarsEnvironment.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+  at Object.precompile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+  at hb.precompile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+  at Object.compile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+  at Object.compile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+  at executionFn (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:239:44)
+  at eval (sandbox.js:13:18)
+  at async run (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+  at module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=xbouax5iddhlfd2, id=xbouax5iddhlfd2
+2024-12-22T08:17:44.696Z - warn: Rendering request 9 finished with error in 25 ms rootId=xbouax5iddhlfd2, id=xbouax5iddhlfd2
+2024-12-22T08:17:45.394Z - info: Render request 10 queued for execution and waiting for available worker rootId=zlszfpgxzeza4un, id=zlszfpgxzeza4un
+2024-12-22T08:17:45.403Z - info: Starting rendering request 10 rootId=zlszfpgxzeza4un, id=zlszfpgxzeza4un
+2024-12-22T08:17:45.403Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=zlszfpgxzeza4un, id=zlszfpgxzeza4un
+2024-12-22T08:17:45.418Z - warn: Error when processing render request 10
+(because) error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+
+(sandbox.js line 13:18)
+Error: Parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+  at Parser.parseError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+  at Parser.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+  at parseWithoutProcessing (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+  at HandlebarsEnvironment.parse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+  at Object.precompile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+  at hb.precompile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+  at Object.compile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+  at Object.compile (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+  at executionFn (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:239:44)
+  at eval (sandbox.js:13:18)
+  at async run (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:132:18)
+  at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+  at async executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:342:16)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+wrapped by:
+Error: Error when evaluating engine handlebars for template /DEMotors/Reportes equipos del cliente/lista-equipo-clientes-main
+(because) parse error on line 54:
+...                    {{/each}}         
+-----------------------^
+Expecting 'EOF', got 'OPEN_ENDBLOCK'
+  at module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+  at WorkerReporter.createError (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+  at executeEngine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:365:35)
+  at async engine.engine (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:146:14)
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=zlszfpgxzeza4un, id=zlszfpgxzeza4un
+2024-12-22T08:17:45.418Z - warn: Rendering request 10 finished with error in 26 ms rootId=zlszfpgxzeza4un, id=zlszfpgxzeza4un
+2024-12-22T08:18:04.618Z - info: Render request 11 queued for execution and waiting for available worker rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:04.625Z - info: Starting rendering request 11 rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:04.625Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:04.659Z - error: Error when processing render request 11
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:04.659Z - error: Rendering request 11 finished with error in 42 ms rootId=rfyyj7jupfz9cae, id=rfyyj7jupfz9cae
+2024-12-22T08:18:39.723Z - info: Render request 12 queued for execution and waiting for available worker rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-22T08:18:39.728Z - info: Starting rendering request 12 rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-22T08:18:39.728Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-22T08:18:39.759Z - error: Error when processing render request 12
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-22T08:18:39.759Z - error: Rendering request 12 finished with error in 37 ms rootId=i6y65ny650qn0ge, id=i6y65ny650qn0ge
+2024-12-22T08:18:40.474Z - info: Render request 13 queued for execution and waiting for available worker rootId=rhhmy2wb75e0cmb, id=rhhmy2wb75e0cmb
+2024-12-22T08:18:40.485Z - info: Starting rendering request 13 rootId=rhhmy2wb75e0cmb, id=rhhmy2wb75e0cmb
+2024-12-22T08:18:40.486Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rhhmy2wb75e0cmb, id=rhhmy2wb75e0cmb
+2024-12-22T08:18:45.711Z - warn: Report render failed
+(because) report cancelled by the client or closed network
+Error: Report cancelled by the client or closed network
+    at Object.close (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:185:21)
+    at Object.release (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\pool.js:50:22)
+    at EventEmitter.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:402:18)
+    at Object.onceWrapper (node:events:632:28)
+    at EventEmitter.emit (node:events:518:28)
+    at Socket.onReqClose (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-express\lib\routes.js:68:20)
+    at Object.onceWrapper (node:events:633:26)
+    at Socket.emit (node:events:530:35)
+    at TCP.<anonymous> (node:net:343:12) rootId=rhhmy2wb75e0cmb, id=rhhmy2wb75e0cmb
+2024-12-22T08:18:46.340Z - info: Render request 14 queued for execution and waiting for available worker rootId=fttusq1wv30dlxh, id=fttusq1wv30dlxh
+2024-12-22T08:18:46.348Z - info: Starting rendering request 14 rootId=fttusq1wv30dlxh, id=fttusq1wv30dlxh
+2024-12-22T08:18:46.348Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fttusq1wv30dlxh, id=fttusq1wv30dlxh
+2024-12-22T08:19:06.275Z - warn: Report render failed
+(because) report cancelled by the client or closed network
+Error: Report cancelled by the client or closed network
+    at Object.close (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:185:21)
+    at Object.release (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\pool.js:50:22)
+    at EventEmitter.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:402:18)
+    at Object.onceWrapper (node:events:632:28)
+    at EventEmitter.emit (node:events:518:28)
+    at Socket.onReqClose (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-express\lib\routes.js:68:20)
+    at Object.onceWrapper (node:events:633:26)
+    at Socket.emit (node:events:530:35)
+    at TCP.<anonymous> (node:net:343:12) rootId=fttusq1wv30dlxh, id=fttusq1wv30dlxh
+2024-12-22T08:19:10.873Z - info: Render request 15 queued for execution and waiting for available worker rootId=031rdk2zqvrdq7f, id=031rdk2zqvrdq7f
+2024-12-22T08:19:10.882Z - info: Starting rendering request 15 rootId=031rdk2zqvrdq7f, id=031rdk2zqvrdq7f
+2024-12-22T08:19:10.883Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=031rdk2zqvrdq7f, id=031rdk2zqvrdq7f
+2024-12-22T08:19:11.443Z - info: Rendering request 15 finished in 571 ms rootId=031rdk2zqvrdq7f, id=031rdk2zqvrdq7f
+2024-12-22T08:19:35.906Z - info: Render request 16 queued for execution and waiting for available worker rootId=w4l2d8rexpawfze, id=w4l2d8rexpawfze
+2024-12-22T08:19:35.918Z - info: Starting rendering request 16 rootId=w4l2d8rexpawfze, id=w4l2d8rexpawfze
+2024-12-22T08:19:35.919Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=w4l2d8rexpawfze, id=w4l2d8rexpawfze
+2024-12-22T08:19:36.532Z - info: Rendering request 16 finished in 628 ms rootId=w4l2d8rexpawfze, id=w4l2d8rexpawfze
+2024-12-22T08:19:52.189Z - info: Render request 17 queued for execution and waiting for available worker rootId=whqa80bqudac9l3, id=whqa80bqudac9l3
+2024-12-22T08:19:52.193Z - info: Starting rendering request 17 rootId=whqa80bqudac9l3, id=whqa80bqudac9l3
+2024-12-22T08:19:52.193Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=whqa80bqudac9l3, id=whqa80bqudac9l3
+2024-12-22T08:19:52.205Z - info: Rendering request 17 finished in 16 ms rootId=whqa80bqudac9l3, id=whqa80bqudac9l3
+2024-12-22T08:20:13.958Z - info: Render request 18 queued for execution and waiting for available worker rootId=jpsuq5co1trarbt, id=jpsuq5co1trarbt
+2024-12-22T08:20:13.965Z - info: Starting rendering request 18 rootId=jpsuq5co1trarbt, id=jpsuq5co1trarbt
+2024-12-22T08:20:13.965Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=jpsuq5co1trarbt, id=jpsuq5co1trarbt
+2024-12-22T08:20:13.987Z - info: Rendering request 18 finished in 30 ms rootId=jpsuq5co1trarbt, id=jpsuq5co1trarbt
+2024-12-22T21:37:16.157Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2024-12-22T21:37:16.159Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-22T21:37:16.168Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-22T21:37:16.183Z - info: Found 35 extension(s)
+2024-12-22T21:37:16.233Z - info: Using extension base@4.0.0
+2024-12-22T21:37:16.236Z - info: Using extension child-templates@4.1.0
+2024-12-22T21:37:16.239Z - info: Using extension cli@4.0.4
+2024-12-22T21:37:16.241Z - info: Using extension components@4.0.2
+2024-12-22T21:37:16.242Z - info: Using extension data@4.1.0
+2024-12-22T21:37:16.243Z - info: Using extension express@4.1.2
+2024-12-22T21:37:16.580Z - info: Using extension freeze@4.0.0
+2024-12-22T21:37:16.582Z - info: Using extension fs-store@4.0.4
+2024-12-22T21:37:16.705Z - info: Using extension handlebars@4.0.1
+2024-12-22T21:37:16.706Z - info: Using extension import-export@4.0.4
+2024-12-22T21:37:16.717Z - info: Using extension jsrender@4.0.0
+2024-12-22T21:37:16.717Z - info: Using extension licensing@4.0.2
+2024-12-22T21:37:16.740Z - info: Using extension localization@4.0.1
+2024-12-22T21:37:16.741Z - info: Using extension npm@4.0.0
+2024-12-22T21:37:16.743Z - info: Using extension pdf-utils@4.2.1
+2024-12-22T21:37:16.744Z - info: Using extension reports@4.1.2
+2024-12-22T21:37:16.746Z - info: Using extension tags@4.0.1
+2024-12-22T21:37:16.747Z - info: Using extension text@4.0.2
+2024-12-22T21:37:16.748Z - info: Using extension version-control@4.0.0
+2024-12-22T21:37:16.754Z - info: Using extension assets@4.1.1
+2024-12-22T21:37:16.764Z - info: Using extension authorization@4.0.0
+2024-12-22T21:37:16.768Z - info: Using extension browser-client@4.1.0
+2024-12-22T21:37:16.770Z - info: Using extension chrome-pdf@4.1.0
+2024-12-22T21:37:16.772Z - info: Using extension docx@4.5.0
+2024-12-22T21:37:16.774Z - info: Using extension html-to-xlsx@4.1.2
+2024-12-22T21:37:17.175Z - info: html-to-xlsx detected chrome as available html engine
+2024-12-22T21:37:17.175Z - info: Using extension pptx@4.3.1
+2024-12-22T21:37:17.177Z - info: Using extension scheduling@4.0.0
+2024-12-22T21:37:17.198Z - info: Using extension scripts@4.1.0
+2024-12-22T21:37:17.199Z - info: Using extension static-pdf@4.1.0
+2024-12-22T21:37:17.200Z - info: Using extension studio@4.1.1
+2024-12-22T21:37:17.270Z - info: Using extension xlsx@4.2.0
+2024-12-22T21:37:17.271Z - info: Using extension public-templates@4.0.0
+2024-12-22T21:37:17.273Z - info: Using extension sample-template@4.0.0
+2024-12-22T21:37:17.274Z - info: Using extension studio-theme-dark@4.0.0
+2024-12-22T21:37:17.275Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-12-22T21:37:17.275Z - info: Using fs provider for template store.
+2024-12-22T21:37:17.277Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\data
+2024-12-22T21:37:17.280Z - info: fs store is loading data
+2024-12-22T21:37:17.288Z - info: fs store is initialized successfully
+2024-12-22T21:37:17.294Z - info: Creating default express app.
+2024-12-22T21:37:17.312Z - info: jsreport server successfully started on http port: 5488
+2024-12-22T21:37:17.313Z - info: Verifying license key free
+2024-12-22T21:37:17.315Z - info: Using free license
+2024-12-22T21:37:17.317Z - info: Initializing worker threads
+2024-12-22T21:37:17.874Z - info: 2 worker threads initialized in 557ms
+2024-12-22T21:37:17.875Z - info: Starting temp files cleanup with 180000ms threshold
+2024-12-22T21:37:17.876Z - info: reporter initialized
+2024-12-23T03:15:45.687Z - info: Initializing jsreport (version: 4.6.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2024-12-23T03:15:45.689Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-23T03:15:45.700Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-23T03:15:45.719Z - info: Found 35 extension(s)
+2024-12-23T03:15:45.768Z - info: Using extension base@4.0.0
+2024-12-23T03:15:45.771Z - info: Using extension child-templates@4.1.0
+2024-12-23T03:15:45.773Z - info: Using extension cli@4.0.4
+2024-12-23T03:15:45.776Z - info: Using extension components@4.0.2
+2024-12-23T03:15:45.777Z - info: Using extension data@4.1.0
+2024-12-23T03:15:45.778Z - info: Using extension express@4.1.2
+2024-12-23T03:15:46.122Z - info: Using extension freeze@4.0.0
+2024-12-23T03:15:46.123Z - info: Using extension fs-store@4.0.4
+2024-12-23T03:15:46.241Z - info: Using extension handlebars@4.0.1
+2024-12-23T03:15:46.242Z - info: Using extension import-export@4.0.4
+2024-12-23T03:15:46.252Z - info: Using extension jsrender@4.0.0
+2024-12-23T03:15:46.252Z - info: Using extension licensing@4.0.2
+2024-12-23T03:15:46.273Z - info: Using extension localization@4.0.1
+2024-12-23T03:15:46.274Z - info: Using extension npm@4.0.0
+2024-12-23T03:15:46.275Z - info: Using extension pdf-utils@4.2.1
+2024-12-23T03:15:46.277Z - info: Using extension reports@4.1.2
+2024-12-23T03:15:46.279Z - info: Using extension tags@4.0.1
+2024-12-23T03:15:46.280Z - info: Using extension text@4.0.2
+2024-12-23T03:15:46.281Z - info: Using extension version-control@4.0.0
+2024-12-23T03:15:46.287Z - info: Using extension assets@4.1.1
+2024-12-23T03:15:46.296Z - info: Using extension authorization@4.0.0
+2024-12-23T03:15:46.299Z - info: Using extension browser-client@4.1.0
+2024-12-23T03:15:46.302Z - info: Using extension chrome-pdf@4.1.0
+2024-12-23T03:15:46.305Z - info: Using extension docx@4.5.0
+2024-12-23T03:15:46.306Z - info: Using extension html-to-xlsx@4.1.2
+2024-12-23T03:15:46.693Z - info: html-to-xlsx detected chrome as available html engine
+2024-12-23T03:15:46.694Z - info: Using extension pptx@4.3.1
+2024-12-23T03:15:46.695Z - info: Using extension scheduling@4.0.0
+2024-12-23T03:15:46.717Z - info: Using extension scripts@4.1.0
+2024-12-23T03:15:46.718Z - info: Using extension static-pdf@4.1.0
+2024-12-23T03:15:46.719Z - info: Using extension studio@4.1.1
+2024-12-23T03:15:46.786Z - info: Using extension xlsx@4.2.0
+2024-12-23T03:15:46.788Z - info: Using extension public-templates@4.0.0
+2024-12-23T03:15:46.789Z - info: Using extension sample-template@4.0.0
+2024-12-23T03:15:46.790Z - info: Using extension studio-theme-dark@4.0.0
+2024-12-23T03:15:46.791Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-12-23T03:15:46.791Z - info: Using fs provider for template store.
+2024-12-23T03:15:46.794Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\data
+2024-12-23T03:15:46.796Z - info: fs store is loading data
+2024-12-23T03:15:46.805Z - info: fs store is initialized successfully
+2024-12-23T03:15:46.811Z - info: Creating default express app.
+2024-12-23T03:15:46.829Z - info: jsreport server successfully started on http port: 5488
+2024-12-23T03:15:46.830Z - info: Verifying license key free
+2024-12-23T03:15:46.832Z - info: Using free license
+2024-12-23T03:15:46.834Z - info: Initializing worker threads
+2024-12-23T03:15:47.370Z - info: 2 worker threads initialized in 536ms
+2024-12-23T03:15:47.371Z - info: Starting temp files cleanup with 180000ms threshold
+2024-12-23T03:15:47.371Z - info: reporter initialized
+2024-12-23T03:16:31.720Z - info: Render request 1 queued for execution and waiting for available worker rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:31.738Z - info: Starting rendering request 1 rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:31.739Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:32.246Z - error: Error when processing render request 1
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:32.246Z - error: Rendering request 1 finished with error in 529 ms rootId=i6ohkneaglklhnd, id=i6ohkneaglklhnd
+2024-12-23T03:16:32.248Z - error: Error during processing request at http://localhost:5488/api/report
+2024-12-23T03:16:52.469Z - info: Render request 2 queued for execution and waiting for available worker rootId=ueua4eht2cnytda, id=ueua4eht2cnytda
+2024-12-23T03:16:52.473Z - info: Starting rendering request 2 rootId=ueua4eht2cnytda, id=ueua4eht2cnytda
+2024-12-23T03:16:52.474Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=ueua4eht2cnytda, id=ueua4eht2cnytda
+2024-12-23T03:16:53.012Z - info: Rendering request 2 finished in 544 ms rootId=ueua4eht2cnytda, id=ueua4eht2cnytda
+2024-12-23T03:18:18.984Z - info: Render request 3 queued for execution and waiting for available worker rootId=6pbbpqya2c5s2zg, id=6pbbpqya2c5s2zg
+2024-12-23T03:18:18.992Z - info: Starting rendering request 3 rootId=6pbbpqya2c5s2zg, id=6pbbpqya2c5s2zg
+2024-12-23T03:18:18.992Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6pbbpqya2c5s2zg, id=6pbbpqya2c5s2zg
+2024-12-23T03:19:20.999Z - warn: Report render failed
+(because) report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/8XbN76JAeSMwfDnT
+Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/8XbN76JAeSMwfDnT
+    at Timeout.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7) rootId=6pbbpqya2c5s2zg, id=6pbbpqya2c5s2zg
+2024-12-23T03:19:21.898Z - warn: Error during processing request at http://localhost:5488/api/report, details: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/8XbN76JAeSMwfDnT, stack: Error: Report timeout. Last profiler operation: (recipe) chrome-pdf. You can inspect and find more details here: http://localhost:5488/studio/profiles/8XbN76JAeSMwfDnT
+    at Timeout.<anonymous> (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\threadWorker.js:43:23)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+2024-12-23T03:20:01.414Z - info: Render request 4 queued for execution and waiting for available worker rootId=ulx8a4rvy2q8hqz, id=ulx8a4rvy2q8hqz
+2024-12-23T03:20:01.422Z - info: Starting rendering request 4 rootId=ulx8a4rvy2q8hqz, id=ulx8a4rvy2q8hqz
+2024-12-23T03:20:01.422Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=ulx8a4rvy2q8hqz, id=ulx8a4rvy2q8hqz
+2024-12-23T03:20:02.017Z - info: Rendering request 4 finished in 603 ms rootId=ulx8a4rvy2q8hqz, id=ulx8a4rvy2q8hqz
+2024-12-23T03:20:28.405Z - info: Render request 5 queued for execution and waiting for available worker rootId=hk8lwhhfx4tvepb, id=hk8lwhhfx4tvepb
+2024-12-23T03:20:28.409Z - info: Starting rendering request 5 rootId=hk8lwhhfx4tvepb, id=hk8lwhhfx4tvepb
+2024-12-23T03:20:28.409Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=hk8lwhhfx4tvepb, id=hk8lwhhfx4tvepb
+2024-12-23T03:20:28.418Z - info: Rendering request 5 finished in 14 ms rootId=hk8lwhhfx4tvepb, id=hk8lwhhfx4tvepb
+2024-12-23T03:20:32.889Z - info: Render request 6 queued for execution and waiting for available worker rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd
+2024-12-23T03:20:32.900Z - info: Starting rendering request 6 rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd
+2024-12-23T03:20:32.900Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd
+2024-12-23T03:20:32.941Z - error: Error when processing render request 6
+(because) could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Error: Could not find Chrome (ver. 127.0.6533.99). This can occur if either
+ 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or
+ 2. your cache path is incorrectly configured (which is: C:\Users\ferna\.cache\puppeteer).
+For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+  at ChromeLauncher.resolveExecutablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:286:27)
+  at ChromeLauncher.executablePath (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:209:25)
+  at ChromeLauncher.computeLaunchArguments (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\ChromeLauncher.js:89:37)
+  at async ChromeLauncher.launch (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\puppeteer-core\lib\cjs\puppeteer\node\BrowserLauncher.js:71:28)
+  at async createBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:105:26)
+  at async allocateBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:120:5)
+  at async getBrowser (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:23:30)
+  at async module.exports (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\conversion.js:11:19)
+  at async execute (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\chromePoolStrategy.js:20:22)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-chrome-pdf\lib\lazyRecipe.js:75:20
+  at async invokeRender (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+  at async WorkerReporter._render (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+  at async C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:232:24
+  at async processAndResponse (C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:41:17) rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd
+2024-12-23T03:20:32.941Z - error: Rendering request 6 finished with error in 54 ms rootId=mqyvolhastkcrrd, id=mqyvolhastkcrrd
+2024-12-23T03:23:48.754Z - info: Initializing jsreport (version: 4.7.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2024-12-23T03:23:48.757Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\
+2024-12-23T03:23:48.760Z - info: Extensions location cache C:\Users\ferna\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2024-12-23T03:23:49.409Z - info: Found 35 extension(s)
+2024-12-23T03:23:49.444Z - info: Using extension base@4.0.0
+2024-12-23T03:23:49.447Z - info: Using extension child-templates@4.1.0
+2024-12-23T03:23:49.448Z - info: Using extension cli@4.0.5
+2024-12-23T03:23:49.450Z - info: Using extension components@4.0.2
+2024-12-23T03:23:49.451Z - info: Using extension data@4.1.0
+2024-12-23T03:23:49.451Z - info: Using extension express@4.1.3
+2024-12-23T03:23:49.619Z - info: Using extension freeze@4.0.0
+2024-12-23T03:23:49.621Z - info: Using extension fs-store@4.0.5
+2024-12-23T03:23:49.686Z - info: Using extension handlebars@4.0.1
+2024-12-23T03:23:49.687Z - info: Using extension import-export@4.0.5
+2024-12-23T03:23:49.693Z - info: Using extension jsrender@4.0.0
+2024-12-23T03:23:49.694Z - info: Using extension licensing@4.0.3
+2024-12-23T03:23:49.697Z - info: Using extension localization@4.0.1
+2024-12-23T03:23:49.698Z - info: Using extension npm@4.0.0
+2024-12-23T03:23:49.706Z - info: Using extension pdf-utils@4.2.2
+2024-12-23T03:23:49.708Z - info: Using extension reports@4.1.2
+2024-12-23T03:23:49.710Z - info: Using extension tags@4.0.1
+2024-12-23T03:23:49.711Z - info: Using extension text@4.0.2
+2024-12-23T03:23:49.711Z - info: Using extension version-control@4.0.0
+2024-12-23T03:23:49.716Z - info: Using extension assets@4.2.0
+2024-12-23T03:23:49.722Z - info: Using extension authorization@4.0.1
+2024-12-23T03:23:49.724Z - info: Using extension browser-client@4.1.0
+2024-12-23T03:23:49.725Z - info: Using extension chrome-pdf@4.1.0
+2024-12-23T03:23:49.727Z - info: Using extension docx@4.6.0
+2024-12-23T03:23:49.728Z - info: Using extension html-to-xlsx@4.1.4
+2024-12-23T03:23:49.872Z - info: html-to-xlsx detected chrome as available html engine
+2024-12-23T03:23:49.872Z - info: Using extension pptx@4.3.2
+2024-12-23T03:23:49.874Z - info: Using extension scheduling@4.0.0
+2024-12-23T03:23:49.891Z - info: Using extension scripts@4.1.0
+2024-12-23T03:23:49.892Z - info: Using extension static-pdf@4.1.0
+2024-12-23T03:23:49.893Z - info: Using extension studio@4.2.0
+2024-12-23T03:23:49.943Z - info: Using extension xlsx@4.3.0
+2024-12-23T03:23:49.944Z - info: Using extension public-templates@4.0.0
+2024-12-23T03:23:49.945Z - info: Using extension sample-template@4.0.0
+2024-12-23T03:23:49.946Z - info: Using extension studio-theme-dark@4.0.0
+2024-12-23T03:23:49.947Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-12-23T03:23:49.947Z - info: Using fs provider for template store.
+2024-12-23T03:23:49.949Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DEMotors-Reports-Worker\data
+2024-12-23T03:23:49.952Z - info: fs store is loading data
+2024-12-23T03:23:49.962Z - info: fs store is initialized successfully
+2024-12-23T03:23:49.967Z - info: Creating default express app.
+2024-12-23T03:23:49.977Z - info: jsreport server successfully started on http port: 5488
+2024-12-23T03:23:49.978Z - info: Verifying license key free
+2024-12-23T03:23:49.978Z - info: Using free license
+2024-12-23T03:23:49.980Z - info: Initializing worker threads
+2024-12-23T03:23:50.365Z - info: 2 worker threads initialized in 385ms
+2024-12-23T03:23:50.366Z - info: Starting temp files cleanup with 180000ms threshold
+2024-12-23T03:23:50.366Z - info: reporter initialized
+2024-12-23T03:23:55.599Z - info: Render request 1 queued for execution and waiting for available worker rootId=mv6ce81clvcvv5t, id=mv6ce81clvcvv5t
+2024-12-23T03:23:55.614Z - info: Starting rendering request 1 rootId=mv6ce81clvcvv5t, id=mv6ce81clvcvv5t
+2024-12-23T03:23:55.614Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mv6ce81clvcvv5t, id=mv6ce81clvcvv5t
+2024-12-23T03:23:57.133Z - info: Rendering request 1 finished in 1539 ms rootId=mv6ce81clvcvv5t, id=mv6ce81clvcvv5t
+2024-12-23T03:24:04.585Z - info: Render request 2 queued for execution and waiting for available worker rootId=v9bn532hutsn4pv, id=v9bn532hutsn4pv
+2024-12-23T03:24:04.602Z - info: Starting rendering request 2 rootId=v9bn532hutsn4pv, id=v9bn532hutsn4pv
+2024-12-23T03:24:04.603Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=v9bn532hutsn4pv, id=v9bn532hutsn4pv
+2024-12-23T03:24:05.239Z - info: Rendering request 2 finished in 655 ms rootId=v9bn532hutsn4pv, id=v9bn532hutsn4pv
+2024-12-23T03:24:20.608Z - info: Render request 3 queued for execution and waiting for available worker rootId=p8j1j090xp5ixd7, id=p8j1j090xp5ixd7
+2024-12-23T03:24:20.611Z - info: Starting rendering request 3 rootId=p8j1j090xp5ixd7, id=p8j1j090xp5ixd7
+2024-12-23T03:24:20.611Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=p8j1j090xp5ixd7, id=p8j1j090xp5ixd7
+2024-12-23T03:24:20.619Z - info: Rendering request 3 finished in 12 ms rootId=p8j1j090xp5ixd7, id=p8j1j090xp5ixd7
+2024-12-23T03:24:42.353Z - info: Render request 4 queued for execution and waiting for available worker rootId=f47jb45fcf18gi0, id=f47jb45fcf18gi0
+2024-12-23T03:24:42.360Z - info: Starting rendering request 4 rootId=f47jb45fcf18gi0, id=f47jb45fcf18gi0
+2024-12-23T03:24:42.360Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: html, engine: handlebars, preview: false } rootId=f47jb45fcf18gi0, id=f47jb45fcf18gi0
+2024-12-23T03:24:42.387Z - info: Rendering request 4 finished in 34 ms rootId=f47jb45fcf18gi0, id=f47jb45fcf18gi0
+2024-12-23T03:24:54.165Z - info: Render request 5 queued for execution and waiting for available worker rootId=lzfv51jhr864arl, id=lzfv51jhr864arl
+2024-12-23T03:24:54.168Z - info: Starting rendering request 5 rootId=lzfv51jhr864arl, id=lzfv51jhr864arl
+2024-12-23T03:24:54.169Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=lzfv51jhr864arl, id=lzfv51jhr864arl
+2024-12-23T03:24:54.519Z - info: Rendering request 5 finished in 355 ms rootId=lzfv51jhr864arl, id=lzfv51jhr864arl
+2024-12-23T03:25:54.739Z - info: Render request 6 queued for execution and waiting for available worker rootId=a2lb4sxgfhdxom7, id=a2lb4sxgfhdxom7
+2024-12-23T03:25:54.755Z - info: Starting rendering request 6 rootId=a2lb4sxgfhdxom7, id=a2lb4sxgfhdxom7
+2024-12-23T03:25:54.755Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=a2lb4sxgfhdxom7, id=a2lb4sxgfhdxom7
+2024-12-23T03:25:55.367Z - info: Rendering request 6 finished in 629 ms rootId=a2lb4sxgfhdxom7, id=a2lb4sxgfhdxom7
+2024-12-23T03:26:03.610Z - info: Render request 7 queued for execution and waiting for available worker rootId=mfpzswmqe09cg67, id=mfpzswmqe09cg67
+2024-12-23T03:26:03.614Z - info: Starting rendering request 7 rootId=mfpzswmqe09cg67, id=mfpzswmqe09cg67
+2024-12-23T03:26:03.614Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=mfpzswmqe09cg67, id=mfpzswmqe09cg67
+2024-12-23T03:26:03.909Z - info: Rendering request 7 finished in 300 ms rootId=mfpzswmqe09cg67, id=mfpzswmqe09cg67
+2024-12-23T03:27:11.223Z - info: Render request 8 queued for execution and waiting for available worker rootId=9fw6ho01aqbq6zo, id=9fw6ho01aqbq6zo
+2024-12-23T03:27:11.227Z - info: Starting rendering request 8 rootId=9fw6ho01aqbq6zo, id=9fw6ho01aqbq6zo
+2024-12-23T03:27:11.227Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=9fw6ho01aqbq6zo, id=9fw6ho01aqbq6zo
+2024-12-23T03:27:11.564Z - info: Rendering request 8 finished in 342 ms rootId=9fw6ho01aqbq6zo, id=9fw6ho01aqbq6zo
+2024-12-23T03:27:45.044Z - info: Render request 9 queued for execution and waiting for available worker rootId=gchyqhqtltcv82b, id=gchyqhqtltcv82b
+2024-12-23T03:27:45.049Z - info: Starting rendering request 9 rootId=gchyqhqtltcv82b, id=gchyqhqtltcv82b
+2024-12-23T03:27:45.049Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=gchyqhqtltcv82b, id=gchyqhqtltcv82b
+2024-12-23T03:27:45.282Z - info: Rendering request 9 finished in 239 ms rootId=gchyqhqtltcv82b, id=gchyqhqtltcv82b
+2024-12-23T03:27:50.206Z - info: Render request 10 queued for execution and waiting for available worker rootId=4o3ekq7waoi8xbi, id=4o3ekq7waoi8xbi
+2024-12-23T03:27:50.211Z - info: Starting rendering request 10 rootId=4o3ekq7waoi8xbi, id=4o3ekq7waoi8xbi
+2024-12-23T03:27:50.212Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=4o3ekq7waoi8xbi, id=4o3ekq7waoi8xbi
+2024-12-23T03:27:50.519Z - info: Rendering request 10 finished in 314 ms rootId=4o3ekq7waoi8xbi, id=4o3ekq7waoi8xbi
+2024-12-23T03:28:53.798Z - info: Render request 11 queued for execution and waiting for available worker rootId=021c11upke3xi8g, id=021c11upke3xi8g
+2024-12-23T03:28:53.802Z - info: Starting rendering request 11 rootId=021c11upke3xi8g, id=021c11upke3xi8g
+2024-12-23T03:28:53.802Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=021c11upke3xi8g, id=021c11upke3xi8g
+2024-12-23T03:28:54.012Z - info: Rendering request 11 finished in 215 ms rootId=021c11upke3xi8g, id=021c11upke3xi8g
+2024-12-23T03:29:13.847Z - info: Render request 12 queued for execution and waiting for available worker rootId=pg9uv46af62f1it, id=pg9uv46af62f1it
+2024-12-23T03:29:13.850Z - info: Starting rendering request 12 rootId=pg9uv46af62f1it, id=pg9uv46af62f1it
+2024-12-23T03:29:13.850Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pg9uv46af62f1it, id=pg9uv46af62f1it
+2024-12-23T03:29:14.249Z - info: Rendering request 12 finished in 403 ms rootId=pg9uv46af62f1it, id=pg9uv46af62f1it
+2024-12-23T03:29:29.624Z - info: Render request 13 queued for execution and waiting for available worker rootId=hgv8lf76g3fuw7c, id=hgv8lf76g3fuw7c
+2024-12-23T03:29:29.628Z - info: Starting rendering request 13 rootId=hgv8lf76g3fuw7c, id=hgv8lf76g3fuw7c
+2024-12-23T03:29:29.628Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hgv8lf76g3fuw7c, id=hgv8lf76g3fuw7c
+2024-12-23T03:29:29.935Z - info: Rendering request 13 finished in 313 ms rootId=hgv8lf76g3fuw7c, id=hgv8lf76g3fuw7c
+2024-12-23T03:30:08.423Z - info: Render request 14 queued for execution and waiting for available worker rootId=4xzhrrhp5ivui4h, id=4xzhrrhp5ivui4h
+2024-12-23T03:30:08.428Z - info: Starting rendering request 14 rootId=4xzhrrhp5ivui4h, id=4xzhrrhp5ivui4h
+2024-12-23T03:30:08.428Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=4xzhrrhp5ivui4h, id=4xzhrrhp5ivui4h
+2024-12-23T03:30:08.724Z - info: Rendering request 14 finished in 302 ms rootId=4xzhrrhp5ivui4h, id=4xzhrrhp5ivui4h
+2024-12-23T03:30:12.603Z - info: Render request 15 queued for execution and waiting for available worker rootId=n58ir2d8jco2o15, id=n58ir2d8jco2o15
+2024-12-23T03:30:12.614Z - info: Starting rendering request 15 rootId=n58ir2d8jco2o15, id=n58ir2d8jco2o15
+2024-12-23T03:30:12.614Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=n58ir2d8jco2o15, id=n58ir2d8jco2o15
+2024-12-23T03:30:12.971Z - info: Rendering request 15 finished in 369 ms rootId=n58ir2d8jco2o15, id=n58ir2d8jco2o15
+2024-12-23T03:30:19.822Z - info: Render request 16 queued for execution and waiting for available worker rootId=68r2ryeogrvf6v4, id=68r2ryeogrvf6v4
+2024-12-23T03:30:19.827Z - info: Starting rendering request 16 rootId=68r2ryeogrvf6v4, id=68r2ryeogrvf6v4
+2024-12-23T03:30:19.827Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=68r2ryeogrvf6v4, id=68r2ryeogrvf6v4
+2024-12-23T03:30:20.124Z - info: Rendering request 16 finished in 304 ms rootId=68r2ryeogrvf6v4, id=68r2ryeogrvf6v4
+2024-12-23T03:36:34.210Z - info: Render request 17 queued for execution and waiting for available worker rootId=jn5s97n1nzayfr8, id=jn5s97n1nzayfr8
+2024-12-23T03:36:34.217Z - info: Starting rendering request 17 rootId=jn5s97n1nzayfr8, id=jn5s97n1nzayfr8
+2024-12-23T03:36:34.217Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jn5s97n1nzayfr8, id=jn5s97n1nzayfr8
+2024-12-23T03:36:34.485Z - info: Rendering request 17 finished in 277 ms rootId=jn5s97n1nzayfr8, id=jn5s97n1nzayfr8
+2024-12-23T03:38:07.358Z - info: Render request 18 queued for execution and waiting for available worker rootId=02b07di3p92i2wc, id=02b07di3p92i2wc
+2024-12-23T03:38:07.366Z - info: Starting rendering request 18 rootId=02b07di3p92i2wc, id=02b07di3p92i2wc
+2024-12-23T03:38:07.366Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=02b07di3p92i2wc, id=02b07di3p92i2wc
+2024-12-23T03:38:07.655Z - info: Rendering request 18 finished in 298 ms rootId=02b07di3p92i2wc, id=02b07di3p92i2wc
+2024-12-23T03:38:13.418Z - info: Render request 19 queued for execution and waiting for available worker rootId=zuhvrtxfqk20fqi, id=zuhvrtxfqk20fqi
+2024-12-23T03:38:13.424Z - info: Starting rendering request 19 rootId=zuhvrtxfqk20fqi, id=zuhvrtxfqk20fqi
+2024-12-23T03:38:13.424Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=zuhvrtxfqk20fqi, id=zuhvrtxfqk20fqi
+2024-12-23T03:38:13.564Z - warn: Page request failed: GET (image) file:///C:/Users/ferna/AppData/Local/Temp/jsreport/autocleanup/width=%2275%%22/, failure: net::ERR_ACCESS_DENIED
+2024-12-23T03:38:13.698Z - info: Rendering request 19 finished in 281 ms rootId=zuhvrtxfqk20fqi, id=zuhvrtxfqk20fqi
+2024-12-23T03:38:56.415Z - info: Render request 20 queued for execution and waiting for available worker rootId=77iquvhky4k0ogw, id=77iquvhky4k0ogw
+2024-12-23T03:38:56.420Z - info: Starting rendering request 20 rootId=77iquvhky4k0ogw, id=77iquvhky4k0ogw
+2024-12-23T03:38:56.420Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=77iquvhky4k0ogw, id=77iquvhky4k0ogw
+2024-12-23T03:38:56.666Z - info: Rendering request 20 finished in 252 ms rootId=77iquvhky4k0ogw, id=77iquvhky4k0ogw
+2024-12-23T03:39:50.144Z - info: Render request 21 queued for execution and waiting for available worker rootId=2oj5r1xu7n1m8hg, id=2oj5r1xu7n1m8hg
+2024-12-23T03:39:50.149Z - info: Starting rendering request 21 rootId=2oj5r1xu7n1m8hg, id=2oj5r1xu7n1m8hg
+2024-12-23T03:39:50.149Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=2oj5r1xu7n1m8hg, id=2oj5r1xu7n1m8hg
+2024-12-23T03:39:50.429Z - info: Rendering request 21 finished in 286 ms rootId=2oj5r1xu7n1m8hg, id=2oj5r1xu7n1m8hg
+2024-12-23T03:43:07.060Z - info: Render request 22 queued for execution and waiting for available worker rootId=gtzrp6o16s15hyv, id=gtzrp6o16s15hyv
+2024-12-23T03:43:07.072Z - info: Starting rendering request 22 rootId=gtzrp6o16s15hyv, id=gtzrp6o16s15hyv
+2024-12-23T03:43:07.072Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gtzrp6o16s15hyv, id=gtzrp6o16s15hyv
+2024-12-23T03:43:07.420Z - info: Rendering request 22 finished in 360 ms rootId=gtzrp6o16s15hyv, id=gtzrp6o16s15hyv
+2024-12-23T03:44:57.312Z - info: Render request 23 queued for execution and waiting for available worker rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc
+2024-12-23T03:44:57.316Z - info: Starting rendering request 23 rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc
+2024-12-23T03:44:57.317Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc
+2024-12-23T03:44:57.619Z - info: Rendering request 23 finished in 308 ms rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc

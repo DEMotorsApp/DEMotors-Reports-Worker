@@ -2,10 +2,15 @@
     "nombreEmpresa": "Demotors",
     "dataDetalles": [
         {
-            "DIRECTION": "Ejemplo",
+            "ADDRESS_CLIENT": "Ejemplo",
             "DATE": "03/10/2024",
             "WORK_DONE": "SI",
             "NO_ORDER": "32131231"
+        }
+    ],
+    "dataImagenes": [
+        {
+            "NOMBRE_IMAGEN": "http://localhost:3200/api/image/static/1734854753911-375562220-1734854753911.png"
         }
     ]
 }

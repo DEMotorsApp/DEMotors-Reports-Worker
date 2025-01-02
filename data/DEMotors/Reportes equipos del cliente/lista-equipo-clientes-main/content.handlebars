@@ -39,7 +39,7 @@
                             {{#each dataEquipos}}
                                 <tr>
                                     <td>{{CLIENT}}</td>
-                                    <td class="body-table">{{DIRECTION}}</td>
+                                    <td class="body-table">{{ADDRESS_CLIENT}}</td>
                                     <td>{{NO_SERIE}}</td>
                                     <td>{{DATE}}</td>
                                     <td>{{WORK_DONE}}</td>
@@ -47,6 +47,12 @@
                             {{/each}}
                         </tbody>
                     </table>
+                    <div>
+                        <h1>Imagenes: </h1>
+                        {{#each dataImagenes}}
+                            <img src={{NOMBRE_IMAGEN}} width="75%"/>
+                        {{/each}}
+                    </div>
                 </main>
             </div>
     </body>

@@ -41,7 +41,7 @@
                                 <tr>
                                     <td>{{NO_ORDER}}</td>
                                     <td>{{CLIENT}}</td>
-                                    <td>{{DIRECTION}}</td>
+                                    <td>{{ADDRESS_CLIENT}}</td>
                                     <td>{{NO_SERIE}}</td>
                                     <td class="body-table">{{DATE}}</td>
                                     <td>{{WORK_DONE}}</td>
@@ -49,6 +49,12 @@
                             {{/each}}
                         </tbody>
                     </table>
+                    <div>
+                        <h1>Imagenes: </h1>
+                        {{#each dataImagenes}}
+                            <img src={{NOMBRE_IMAGEN}} width="75%"/>
+                        {{/each}}
+                    </div>
                 </main>
             </div>
     </body>
