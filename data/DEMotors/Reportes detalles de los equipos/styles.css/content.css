@@ -29,3 +29,22 @@
     line-height: 45px;
     color: #333;
 }
+
+#photo-container {
+    line-height: 0;
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+}
+
+#photo-container .photo {
+    display: block;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 20px;
+}
+
+#photo-container .photo img {
+    width: 100% !important;
+    height: auto !important;
+}

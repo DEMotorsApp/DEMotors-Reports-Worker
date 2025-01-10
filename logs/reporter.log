@@ -1206,3 +1206,316 @@ For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides
 2024-12-23T03:44:57.316Z - info: Starting rendering request 23 rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc
 2024-12-23T03:44:57.317Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc
 2024-12-23T03:44:57.619Z - info: Rendering request 23 finished in 308 ms rootId=hykh8f7hesh8odc, id=hykh8f7hesh8odc
+2025-01-08T19:14:58.722Z - info: Initializing jsreport (version: 4.7.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-01-08T19:14:58.724Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DemotorsAppWorker\
+2025-01-08T19:14:58.728Z - info: Extensions location cache doesn't contain entry yet, crawling
+2025-01-08T19:15:00.027Z - info: Found 35 extension(s)
+2025-01-08T19:15:00.069Z - info: Using extension base@4.0.0
+2025-01-08T19:15:00.072Z - info: Using extension child-templates@4.1.0
+2025-01-08T19:15:00.074Z - info: Using extension cli@4.0.5
+2025-01-08T19:15:00.076Z - info: Using extension components@4.0.2
+2025-01-08T19:15:00.077Z - info: Using extension data@4.1.0
+2025-01-08T19:15:00.078Z - info: Using extension express@4.1.3
+2025-01-08T19:15:00.317Z - info: Using extension freeze@4.0.0
+2025-01-08T19:15:00.318Z - info: Using extension fs-store@4.0.5
+2025-01-08T19:15:00.410Z - info: Using extension handlebars@4.0.1
+2025-01-08T19:15:00.411Z - info: Using extension import-export@4.0.5
+2025-01-08T19:15:00.418Z - info: Using extension jsrender@4.0.0
+2025-01-08T19:15:00.419Z - info: Using extension licensing@4.0.3
+2025-01-08T19:15:00.422Z - info: Using extension localization@4.0.1
+2025-01-08T19:15:00.423Z - info: Using extension npm@4.0.0
+2025-01-08T19:15:00.426Z - info: Using extension pdf-utils@4.2.2
+2025-01-08T19:15:00.427Z - info: Using extension reports@4.1.2
+2025-01-08T19:15:00.429Z - info: Using extension tags@4.0.1
+2025-01-08T19:15:00.430Z - info: Using extension text@4.0.2
+2025-01-08T19:15:00.431Z - info: Using extension version-control@4.0.0
+2025-01-08T19:15:00.437Z - info: Using extension assets@4.2.0
+2025-01-08T19:15:00.444Z - info: Using extension authorization@4.0.1
+2025-01-08T19:15:00.448Z - info: Using extension browser-client@4.1.0
+2025-01-08T19:15:00.450Z - info: Using extension chrome-pdf@4.1.0
+2025-01-08T19:15:00.452Z - info: Using extension docx@4.6.0
+2025-01-08T19:15:00.453Z - info: Using extension html-to-xlsx@4.1.4
+2025-01-08T19:15:00.640Z - info: html-to-xlsx detected chrome as available html engine
+2025-01-08T19:15:00.640Z - info: Using extension pptx@4.3.2
+2025-01-08T19:15:00.641Z - info: Using extension scheduling@4.0.0
+2025-01-08T19:15:00.666Z - info: Using extension scripts@4.1.0
+2025-01-08T19:15:00.667Z - info: Using extension static-pdf@4.1.0
+2025-01-08T19:15:00.668Z - info: Using extension studio@4.2.0
+2025-01-08T19:15:00.732Z - info: Using extension xlsx@4.3.0
+2025-01-08T19:15:00.733Z - info: Using extension public-templates@4.0.0
+2025-01-08T19:15:00.734Z - info: Using extension sample-template@4.0.0
+2025-01-08T19:15:00.736Z - info: Using extension studio-theme-dark@4.0.0
+2025-01-08T19:15:00.737Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-01-08T19:15:00.737Z - info: Using fs provider for template store.
+2025-01-08T19:15:00.739Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DemotorsAppWorker\data
+2025-01-08T19:15:00.742Z - info: fs store is loading data
+2025-01-08T19:15:00.750Z - info: fs store is initialized successfully
+2025-01-08T19:15:00.756Z - info: Creating default express app.
+2025-01-08T19:15:00.771Z - info: jsreport server successfully started on http port: 5488
+2025-01-08T19:15:00.771Z - info: Verifying license key free
+2025-01-08T19:15:00.774Z - info: Using free license
+2025-01-08T19:15:00.776Z - info: Initializing worker threads
+2025-01-08T19:15:01.199Z - info: 2 worker threads initialized in 423ms
+2025-01-08T19:15:01.199Z - info: Starting temp files cleanup with 180000ms threshold
+2025-01-08T19:15:01.199Z - info: reporter initialized
+2025-01-08T19:16:21.167Z - info: Render request 1 queued for execution and waiting for available worker rootId=rjt0vqzrcres4mb, id=rjt0vqzrcres4mb
+2025-01-08T19:16:21.182Z - info: Starting rendering request 1 rootId=rjt0vqzrcres4mb, id=rjt0vqzrcres4mb
+2025-01-08T19:16:21.182Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rjt0vqzrcres4mb, id=rjt0vqzrcres4mb
+2025-01-08T19:16:23.354Z - info: Rendering request 1 finished in 2188 ms rootId=rjt0vqzrcres4mb, id=rjt0vqzrcres4mb
+2025-01-08T19:17:21.133Z - info: Render request 2 queued for execution and waiting for available worker rootId=vzgzpbjz0qxn4dz, id=vzgzpbjz0qxn4dz
+2025-01-08T19:17:21.145Z - info: Starting rendering request 2 rootId=vzgzpbjz0qxn4dz, id=vzgzpbjz0qxn4dz
+2025-01-08T19:17:21.146Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vzgzpbjz0qxn4dz, id=vzgzpbjz0qxn4dz
+2025-01-08T19:17:22.736Z - info: Rendering request 2 finished in 1606 ms rootId=vzgzpbjz0qxn4dz, id=vzgzpbjz0qxn4dz
+2025-01-08T19:17:32.169Z - info: Render request 3 queued for execution and waiting for available worker rootId=q0yjo7l97togzha, id=q0yjo7l97togzha
+2025-01-08T19:17:32.176Z - info: Starting rendering request 3 rootId=q0yjo7l97togzha, id=q0yjo7l97togzha
+2025-01-08T19:17:32.176Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q0yjo7l97togzha, id=q0yjo7l97togzha
+2025-01-08T19:17:32.683Z - info: Rendering request 3 finished in 516 ms rootId=q0yjo7l97togzha, id=q0yjo7l97togzha
+2025-01-08T19:17:49.169Z - info: Render request 4 queued for execution and waiting for available worker rootId=hgtu4h125j34oox, id=hgtu4h125j34oox
+2025-01-08T19:17:49.178Z - info: Starting rendering request 4 rootId=hgtu4h125j34oox, id=hgtu4h125j34oox
+2025-01-08T19:17:49.178Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=hgtu4h125j34oox, id=hgtu4h125j34oox
+2025-01-08T19:17:49.658Z - info: Rendering request 4 finished in 492 ms rootId=hgtu4h125j34oox, id=hgtu4h125j34oox
+2025-01-08T19:18:19.045Z - info: Render request 5 queued for execution and waiting for available worker rootId=apoxfal5n6airu8, id=apoxfal5n6airu8
+2025-01-08T19:18:19.052Z - info: Starting rendering request 5 rootId=apoxfal5n6airu8, id=apoxfal5n6airu8
+2025-01-08T19:18:19.052Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=apoxfal5n6airu8, id=apoxfal5n6airu8
+2025-01-08T19:18:19.426Z - info: Rendering request 5 finished in 382 ms rootId=apoxfal5n6airu8, id=apoxfal5n6airu8
+2025-01-08T19:19:12.945Z - info: Render request 6 queued for execution and waiting for available worker rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:12.952Z - info: Starting rendering request 6 rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:12.952Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:13.381Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/fab2889df04e40d266cabd44f46d6122.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:13.393Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/1d1036a826c7c2b35b70aa6d81599334.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:13.410Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/862bca3fa6b5f762d0fee9c66a3ad895.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:13.535Z - info: Rendering request 6 finished in 592 ms rootId=ef6bbd9l1cckerb, id=ef6bbd9l1cckerb
+2025-01-08T19:19:19.535Z - info: Render request 7 queued for execution and waiting for available worker rootId=tkv3tagixbtl8ug, id=tkv3tagixbtl8ug
+2025-01-08T19:19:19.546Z - info: Starting rendering request 7 rootId=tkv3tagixbtl8ug, id=tkv3tagixbtl8ug
+2025-01-08T19:19:19.546Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tkv3tagixbtl8ug, id=tkv3tagixbtl8ug
+2025-01-08T19:19:19.929Z - info: Rendering request 7 finished in 395 ms rootId=tkv3tagixbtl8ug, id=tkv3tagixbtl8ug
+2025-01-08T19:19:26.296Z - info: Render request 8 queued for execution and waiting for available worker rootId=wmthk42t59wfu8b, id=wmthk42t59wfu8b
+2025-01-08T19:19:26.304Z - info: Starting rendering request 8 rootId=wmthk42t59wfu8b, id=wmthk42t59wfu8b
+2025-01-08T19:19:26.304Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=wmthk42t59wfu8b, id=wmthk42t59wfu8b
+2025-01-08T19:19:26.667Z - info: Rendering request 8 finished in 372 ms rootId=wmthk42t59wfu8b, id=wmthk42t59wfu8b
+2025-01-08T19:19:39.310Z - info: Render request 9 queued for execution and waiting for available worker rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:19:39.317Z - info: Starting rendering request 9 rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:19:39.318Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:19:39.735Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/862bca3fa6b5f762d0fee9c66a3ad895.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:19:39.745Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/fab2889df04e40d266cabd44f46d6122.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:19:39.763Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/1d1036a826c7c2b35b70aa6d81599334.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:19:39.894Z - info: Rendering request 9 finished in 585 ms rootId=pdpe3n6idj270t5, id=pdpe3n6idj270t5
+2025-01-08T19:20:24.241Z - info: Render request 10 queued for execution and waiting for available worker rootId=py2g0kmgb1n9x2p, id=py2g0kmgb1n9x2p
+2025-01-08T19:20:24.248Z - info: Starting rendering request 10 rootId=py2g0kmgb1n9x2p, id=py2g0kmgb1n9x2p
+2025-01-08T19:20:24.248Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=py2g0kmgb1n9x2p, id=py2g0kmgb1n9x2p
+2025-01-08T19:20:24.675Z - info: Rendering request 10 finished in 435 ms rootId=py2g0kmgb1n9x2p, id=py2g0kmgb1n9x2p
+2025-01-08T19:20:40.730Z - info: Render request 11 queued for execution and waiting for available worker rootId=6z57xsflsq2qy8i, id=6z57xsflsq2qy8i
+2025-01-08T19:20:40.738Z - info: Starting rendering request 11 rootId=6z57xsflsq2qy8i, id=6z57xsflsq2qy8i
+2025-01-08T19:20:40.739Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6z57xsflsq2qy8i, id=6z57xsflsq2qy8i
+2025-01-08T19:20:41.132Z - info: Rendering request 11 finished in 404 ms rootId=6z57xsflsq2qy8i, id=6z57xsflsq2qy8i
+2025-01-08T19:20:56.578Z - info: Render request 12 queued for execution and waiting for available worker rootId=dpmxthdbppuhqut, id=dpmxthdbppuhqut
+2025-01-08T19:20:56.588Z - info: Starting rendering request 12 rootId=dpmxthdbppuhqut, id=dpmxthdbppuhqut
+2025-01-08T19:20:56.589Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=dpmxthdbppuhqut, id=dpmxthdbppuhqut
+2025-01-08T19:20:57.015Z - info: Rendering request 12 finished in 439 ms rootId=dpmxthdbppuhqut, id=dpmxthdbppuhqut
+2025-01-08T19:21:10.404Z - info: Render request 13 queued for execution and waiting for available worker rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:10.414Z - info: Starting rendering request 13 rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:10.414Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:10.681Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/fab2889df04e40d266cabd44f46d6122.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:10.691Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/1d1036a826c7c2b35b70aa6d81599334.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:10.728Z - warn: Page request failed: GET (image) https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/862bca3fa6b5f762d0fee9c66a3ad895.jpg/, failure: net::ERR_BLOCKED_BY_ORB rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:10.859Z - info: Rendering request 13 finished in 457 ms rootId=akplg9fiw0b4uvp, id=akplg9fiw0b4uvp
+2025-01-08T19:21:30.110Z - info: Render request 14 queued for execution and waiting for available worker rootId=3ctqvmzycc44f88, id=3ctqvmzycc44f88
+2025-01-08T19:21:30.116Z - info: Starting rendering request 14 rootId=3ctqvmzycc44f88, id=3ctqvmzycc44f88
+2025-01-08T19:21:30.117Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3ctqvmzycc44f88, id=3ctqvmzycc44f88
+2025-01-08T19:21:30.475Z - info: Rendering request 14 finished in 367 ms rootId=3ctqvmzycc44f88, id=3ctqvmzycc44f88
+2025-01-08T19:21:40.079Z - info: Render request 15 queued for execution and waiting for available worker rootId=ib80ec7qxxxbhps, id=ib80ec7qxxxbhps
+2025-01-08T19:21:40.086Z - info: Starting rendering request 15 rootId=ib80ec7qxxxbhps, id=ib80ec7qxxxbhps
+2025-01-08T19:21:40.086Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ib80ec7qxxxbhps, id=ib80ec7qxxxbhps
+2025-01-08T19:21:40.452Z - info: Rendering request 15 finished in 374 ms rootId=ib80ec7qxxxbhps, id=ib80ec7qxxxbhps
+2025-01-08T19:21:51.824Z - info: Render request 16 queued for execution and waiting for available worker rootId=e3kazd0h7uimmf9, id=e3kazd0h7uimmf9
+2025-01-08T19:21:51.830Z - info: Starting rendering request 16 rootId=e3kazd0h7uimmf9, id=e3kazd0h7uimmf9
+2025-01-08T19:21:51.830Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=e3kazd0h7uimmf9, id=e3kazd0h7uimmf9
+2025-01-08T19:21:52.150Z - info: Rendering request 16 finished in 328 ms rootId=e3kazd0h7uimmf9, id=e3kazd0h7uimmf9
+2025-01-08T19:22:00.584Z - info: Render request 17 queued for execution and waiting for available worker rootId=kxqvpxvti6pxbiw, id=kxqvpxvti6pxbiw
+2025-01-08T19:22:00.591Z - info: Starting rendering request 17 rootId=kxqvpxvti6pxbiw, id=kxqvpxvti6pxbiw
+2025-01-08T19:22:00.591Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kxqvpxvti6pxbiw, id=kxqvpxvti6pxbiw
+2025-01-08T19:22:00.896Z - info: Rendering request 17 finished in 314 ms rootId=kxqvpxvti6pxbiw, id=kxqvpxvti6pxbiw
+2025-01-08T19:22:14.741Z - info: Render request 18 queued for execution and waiting for available worker rootId=rmwlvnlyq0xyizy, id=rmwlvnlyq0xyizy
+2025-01-08T19:22:14.747Z - info: Starting rendering request 18 rootId=rmwlvnlyq0xyizy, id=rmwlvnlyq0xyizy
+2025-01-08T19:22:14.747Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rmwlvnlyq0xyizy, id=rmwlvnlyq0xyizy
+2025-01-08T19:22:15.063Z - info: Rendering request 18 finished in 324 ms rootId=rmwlvnlyq0xyizy, id=rmwlvnlyq0xyizy
+2025-01-08T19:22:40.114Z - info: Render request 19 queued for execution and waiting for available worker rootId=tanq3ty22yfioej, id=tanq3ty22yfioej
+2025-01-08T19:22:40.120Z - info: Starting rendering request 19 rootId=tanq3ty22yfioej, id=tanq3ty22yfioej
+2025-01-08T19:22:40.121Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tanq3ty22yfioej, id=tanq3ty22yfioej
+2025-01-08T19:22:40.475Z - info: Rendering request 19 finished in 362 ms rootId=tanq3ty22yfioej, id=tanq3ty22yfioej
+2025-01-08T19:23:28.648Z - info: Render request 20 queued for execution and waiting for available worker rootId=tq8vx9wedrfr1t7, id=tq8vx9wedrfr1t7
+2025-01-08T19:23:28.662Z - info: Starting rendering request 20 rootId=tq8vx9wedrfr1t7, id=tq8vx9wedrfr1t7
+2025-01-08T19:23:28.662Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tq8vx9wedrfr1t7, id=tq8vx9wedrfr1t7
+2025-01-08T19:23:29.586Z - info: Rendering request 20 finished in 939 ms rootId=tq8vx9wedrfr1t7, id=tq8vx9wedrfr1t7
+2025-01-08T19:23:56.897Z - info: Render request 21 queued for execution and waiting for available worker rootId=5mfhqy0v9lpmf71, id=5mfhqy0v9lpmf71
+2025-01-08T19:23:56.909Z - info: Starting rendering request 21 rootId=5mfhqy0v9lpmf71, id=5mfhqy0v9lpmf71
+2025-01-08T19:23:56.909Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=5mfhqy0v9lpmf71, id=5mfhqy0v9lpmf71
+2025-01-08T19:23:57.410Z - info: Rendering request 21 finished in 514 ms rootId=5mfhqy0v9lpmf71, id=5mfhqy0v9lpmf71
+2025-01-08T19:24:09.930Z - info: Render request 22 queued for execution and waiting for available worker rootId=39yba49ip5ob6h9, id=39yba49ip5ob6h9
+2025-01-08T19:24:09.942Z - info: Starting rendering request 22 rootId=39yba49ip5ob6h9, id=39yba49ip5ob6h9
+2025-01-08T19:24:09.942Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=39yba49ip5ob6h9, id=39yba49ip5ob6h9
+2025-01-08T19:24:10.490Z - info: Rendering request 22 finished in 562 ms rootId=39yba49ip5ob6h9, id=39yba49ip5ob6h9
+2025-01-08T19:24:42.517Z - info: Render request 23 queued for execution and waiting for available worker rootId=fqs03i33adr3um5, id=fqs03i33adr3um5
+2025-01-08T19:24:42.524Z - info: Starting rendering request 23 rootId=fqs03i33adr3um5, id=fqs03i33adr3um5
+2025-01-08T19:24:42.524Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=fqs03i33adr3um5, id=fqs03i33adr3um5
+2025-01-08T19:24:43.063Z - info: Rendering request 23 finished in 547 ms rootId=fqs03i33adr3um5, id=fqs03i33adr3um5
+2025-01-08T19:26:16.790Z - info: Render request 24 queued for execution and waiting for available worker rootId=xen825hngktrbtw, id=xen825hngktrbtw
+2025-01-08T19:26:16.799Z - info: Starting rendering request 24 rootId=xen825hngktrbtw, id=xen825hngktrbtw
+2025-01-08T19:26:16.799Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xen825hngktrbtw, id=xen825hngktrbtw
+2025-01-08T19:26:17.286Z - info: Rendering request 24 finished in 497 ms rootId=xen825hngktrbtw, id=xen825hngktrbtw
+2025-01-08T19:26:26.022Z - info: Render request 25 queued for execution and waiting for available worker rootId=2e5renz6g4psorz, id=2e5renz6g4psorz
+2025-01-08T19:26:26.029Z - info: Starting rendering request 25 rootId=2e5renz6g4psorz, id=2e5renz6g4psorz
+2025-01-08T19:26:26.029Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=2e5renz6g4psorz, id=2e5renz6g4psorz
+2025-01-08T19:26:26.631Z - info: Rendering request 25 finished in 610 ms rootId=2e5renz6g4psorz, id=2e5renz6g4psorz
+2025-01-08T19:31:49.794Z - info: Render request 26 queued for execution and waiting for available worker rootId=c0rjjpt69spppyh, id=c0rjjpt69spppyh
+2025-01-08T19:31:49.802Z - info: Starting rendering request 26 rootId=c0rjjpt69spppyh, id=c0rjjpt69spppyh
+2025-01-08T19:31:49.802Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=c0rjjpt69spppyh, id=c0rjjpt69spppyh
+2025-01-08T19:31:50.458Z - info: Rendering request 26 finished in 665 ms rootId=c0rjjpt69spppyh, id=c0rjjpt69spppyh
+2025-01-08T19:32:00.594Z - info: Render request 27 queued for execution and waiting for available worker rootId=1yq3zw7k57nye7u, id=1yq3zw7k57nye7u
+2025-01-08T19:32:00.601Z - info: Starting rendering request 27 rootId=1yq3zw7k57nye7u, id=1yq3zw7k57nye7u
+2025-01-08T19:32:00.601Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1yq3zw7k57nye7u, id=1yq3zw7k57nye7u
+2025-01-08T19:32:01.293Z - info: Rendering request 27 finished in 700 ms rootId=1yq3zw7k57nye7u, id=1yq3zw7k57nye7u
+2025-01-08T19:32:03.152Z - info: Render request 28 queued for execution and waiting for available worker rootId=rvxpg6owivkatvm, id=rvxpg6owivkatvm
+2025-01-08T19:32:03.158Z - info: Starting rendering request 28 rootId=rvxpg6owivkatvm, id=rvxpg6owivkatvm
+2025-01-08T19:32:03.159Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rvxpg6owivkatvm, id=rvxpg6owivkatvm
+2025-01-08T19:32:03.883Z - info: Rendering request 28 finished in 732 ms rootId=rvxpg6owivkatvm, id=rvxpg6owivkatvm
+2025-01-08T19:32:12.757Z - info: Render request 29 queued for execution and waiting for available worker rootId=i2ad9oj02nlwqpe, id=i2ad9oj02nlwqpe
+2025-01-08T19:32:12.764Z - info: Starting rendering request 29 rootId=i2ad9oj02nlwqpe, id=i2ad9oj02nlwqpe
+2025-01-08T19:32:12.764Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=i2ad9oj02nlwqpe, id=i2ad9oj02nlwqpe
+2025-01-08T19:32:13.428Z - info: Rendering request 29 finished in 673 ms rootId=i2ad9oj02nlwqpe, id=i2ad9oj02nlwqpe
+2025-01-08T19:32:15.205Z - info: Render request 30 queued for execution and waiting for available worker rootId=u83izhvc6up8jjp, id=u83izhvc6up8jjp
+2025-01-08T19:32:15.211Z - info: Starting rendering request 30 rootId=u83izhvc6up8jjp, id=u83izhvc6up8jjp
+2025-01-08T19:32:15.212Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=u83izhvc6up8jjp, id=u83izhvc6up8jjp
+2025-01-08T19:32:15.835Z - info: Rendering request 30 finished in 632 ms rootId=u83izhvc6up8jjp, id=u83izhvc6up8jjp
+2025-01-08T19:32:24.967Z - info: Initializing jsreport (version: 4.7.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-01-08T19:32:24.969Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DemotorsAppWorker\
+2025-01-08T19:32:24.971Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\Documents\Personal\DemotorsAppWorker\
+2025-01-08T19:32:24.986Z - info: Found 35 extension(s)
+2025-01-08T19:32:25.024Z - info: Using extension base@4.0.0
+2025-01-08T19:32:25.028Z - info: Using extension child-templates@4.1.0
+2025-01-08T19:32:25.029Z - info: Using extension cli@4.0.5
+2025-01-08T19:32:25.032Z - info: Using extension components@4.0.2
+2025-01-08T19:32:25.033Z - info: Using extension data@4.1.0
+2025-01-08T19:32:25.034Z - info: Using extension express@4.1.3
+2025-01-08T19:32:25.206Z - info: Using extension freeze@4.0.0
+2025-01-08T19:32:25.208Z - info: Using extension fs-store@4.0.5
+2025-01-08T19:32:25.275Z - info: Using extension handlebars@4.0.1
+2025-01-08T19:32:25.276Z - info: Using extension import-export@4.0.5
+2025-01-08T19:32:25.282Z - info: Using extension jsrender@4.0.0
+2025-01-08T19:32:25.283Z - info: Using extension licensing@4.0.3
+2025-01-08T19:32:25.286Z - info: Using extension localization@4.0.1
+2025-01-08T19:32:25.286Z - info: Using extension npm@4.0.0
+2025-01-08T19:32:25.289Z - info: Using extension pdf-utils@4.2.2
+2025-01-08T19:32:25.294Z - info: Using extension reports@4.1.2
+2025-01-08T19:32:25.296Z - info: Using extension tags@4.0.1
+2025-01-08T19:32:25.297Z - info: Using extension text@4.0.2
+2025-01-08T19:32:25.298Z - info: Using extension version-control@4.0.0
+2025-01-08T19:32:25.304Z - info: Using extension assets@4.2.0
+2025-01-08T19:32:25.311Z - info: Using extension authorization@4.0.1
+2025-01-08T19:32:25.314Z - info: Using extension browser-client@4.1.0
+2025-01-08T19:32:25.316Z - info: Using extension chrome-pdf@4.1.0
+2025-01-08T19:32:25.317Z - info: Using extension docx@4.6.0
+2025-01-08T19:32:25.319Z - info: Using extension html-to-xlsx@4.1.4
+2025-01-08T19:32:25.464Z - info: html-to-xlsx detected chrome as available html engine
+2025-01-08T19:32:25.464Z - info: Using extension pptx@4.3.2
+2025-01-08T19:32:25.465Z - info: Using extension scheduling@4.0.0
+2025-01-08T19:32:25.483Z - info: Using extension scripts@4.1.0
+2025-01-08T19:32:25.484Z - info: Using extension static-pdf@4.1.0
+2025-01-08T19:32:25.484Z - info: Using extension studio@4.2.0
+2025-01-08T19:32:25.534Z - info: Using extension xlsx@4.3.0
+2025-01-08T19:32:25.536Z - info: Using extension public-templates@4.0.0
+2025-01-08T19:32:25.537Z - info: Using extension sample-template@4.0.0
+2025-01-08T19:32:25.538Z - info: Using extension studio-theme-dark@4.0.0
+2025-01-08T19:32:25.539Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-01-08T19:32:25.539Z - info: Using fs provider for template store.
+2025-01-08T19:32:25.541Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DemotorsAppWorker\data
+2025-01-08T19:32:25.544Z - info: fs store is loading data
+2025-01-08T19:32:25.554Z - info: fs store is initialized successfully
+2025-01-08T19:32:25.560Z - info: Creating default express app.
+2025-01-08T19:32:25.570Z - info: jsreport server successfully started on http port: 5488
+2025-01-08T19:32:25.570Z - info: Verifying license key free
+2025-01-08T19:32:25.573Z - info: Using free license
+2025-01-08T19:32:25.574Z - info: Initializing worker threads
+2025-01-08T19:32:25.942Z - info: 2 worker threads initialized in 368ms
+2025-01-08T19:32:25.992Z - info: Starting temp files cleanup with 180000ms threshold
+2025-01-08T19:32:25.994Z - info: reporter initialized
+2025-01-08T19:32:29.856Z - info: Render request 1 queued for execution and waiting for available worker rootId=ayxijrh1s1hv822, id=ayxijrh1s1hv822
+2025-01-08T19:32:29.869Z - info: Starting rendering request 1 rootId=ayxijrh1s1hv822, id=ayxijrh1s1hv822
+2025-01-08T19:32:29.870Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ayxijrh1s1hv822, id=ayxijrh1s1hv822
+2025-01-08T19:32:31.478Z - info: Rendering request 1 finished in 1624 ms rootId=ayxijrh1s1hv822, id=ayxijrh1s1hv822
+2025-01-08T19:32:54.227Z - info: Render request 2 queued for execution and waiting for available worker rootId=msldstqi1oz8hen, id=msldstqi1oz8hen
+2025-01-08T19:32:54.236Z - info: Starting rendering request 2 rootId=msldstqi1oz8hen, id=msldstqi1oz8hen
+2025-01-08T19:32:54.237Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=msldstqi1oz8hen, id=msldstqi1oz8hen
+2025-01-08T19:32:56.364Z - info: Rendering request 2 finished in 2139 ms rootId=msldstqi1oz8hen, id=msldstqi1oz8hen
+2025-01-08T19:33:14.630Z - info: Render request 3 queued for execution and waiting for available worker rootId=ezckczt7hnsgm5e, id=ezckczt7hnsgm5e
+2025-01-08T19:33:14.637Z - info: Starting rendering request 3 rootId=ezckczt7hnsgm5e, id=ezckczt7hnsgm5e
+2025-01-08T19:33:14.637Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ezckczt7hnsgm5e, id=ezckczt7hnsgm5e
+2025-01-08T19:33:15.363Z - info: Rendering request 3 finished in 735 ms rootId=ezckczt7hnsgm5e, id=ezckczt7hnsgm5e
+2025-01-08T19:33:32.598Z - info: Render request 4 queued for execution and waiting for available worker rootId=6bzr8duhkdumarj, id=6bzr8duhkdumarj
+2025-01-08T19:33:32.605Z - info: Starting rendering request 4 rootId=6bzr8duhkdumarj, id=6bzr8duhkdumarj
+2025-01-08T19:33:32.606Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6bzr8duhkdumarj, id=6bzr8duhkdumarj
+2025-01-08T19:33:33.365Z - info: Rendering request 4 finished in 769 ms rootId=6bzr8duhkdumarj, id=6bzr8duhkdumarj
+2025-01-08T19:36:35.203Z - info: Render request 5 queued for execution and waiting for available worker rootId=kvr7cenv8t8epa5, id=kvr7cenv8t8epa5
+2025-01-08T19:36:35.209Z - info: Starting rendering request 5 rootId=kvr7cenv8t8epa5, id=kvr7cenv8t8epa5
+2025-01-08T19:36:35.210Z - info: Rendering template { name: lista-ordenes-servicios-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=kvr7cenv8t8epa5, id=kvr7cenv8t8epa5
+2025-01-08T19:36:35.681Z - info: Rendering request 5 finished in 479 ms rootId=kvr7cenv8t8epa5, id=kvr7cenv8t8epa5
+2025-01-10T14:44:01.394Z - info: Initializing jsreport (version: 4.7.0, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-01-10T14:44:01.396Z - info: Searching for available extensions in C:\Users\ferna\Documents\Personal\DemotorsAppWorker\
+2025-01-10T14:44:01.403Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\ferna\Documents\Personal\DemotorsAppWorker\
+2025-01-10T14:44:01.447Z - info: Found 35 extension(s)
+2025-01-10T14:44:01.493Z - info: Using extension base@4.0.0
+2025-01-10T14:44:01.496Z - info: Using extension child-templates@4.1.0
+2025-01-10T14:44:01.498Z - info: Using extension cli@4.0.5
+2025-01-10T14:44:01.499Z - info: Using extension components@4.0.2
+2025-01-10T14:44:01.501Z - info: Using extension data@4.1.0
+2025-01-10T14:44:01.501Z - info: Using extension express@4.1.3
+2025-01-10T14:44:01.818Z - info: Using extension freeze@4.0.0
+2025-01-10T14:44:01.820Z - info: Using extension fs-store@4.0.5
+2025-01-10T14:44:01.932Z - info: Using extension handlebars@4.0.1
+2025-01-10T14:44:01.934Z - info: Using extension import-export@4.0.5
+2025-01-10T14:44:01.943Z - info: Using extension jsrender@4.0.0
+2025-01-10T14:44:01.944Z - info: Using extension licensing@4.0.3
+2025-01-10T14:44:01.948Z - info: Using extension localization@4.0.1
+2025-01-10T14:44:01.948Z - info: Using extension npm@4.0.0
+2025-01-10T14:44:01.950Z - info: Using extension pdf-utils@4.2.2
+2025-01-10T14:44:01.954Z - info: Using extension reports@4.1.2
+2025-01-10T14:44:01.958Z - info: Using extension tags@4.0.1
+2025-01-10T14:44:01.963Z - info: Using extension text@4.0.2
+2025-01-10T14:44:01.964Z - info: Using extension version-control@4.0.0
+2025-01-10T14:44:01.970Z - info: Using extension assets@4.2.0
+2025-01-10T14:44:01.979Z - info: Using extension authorization@4.0.1
+2025-01-10T14:44:01.983Z - info: Using extension browser-client@4.1.0
+2025-01-10T14:44:01.986Z - info: Using extension chrome-pdf@4.1.0
+2025-01-10T14:44:01.988Z - info: Using extension docx@4.6.0
+2025-01-10T14:44:01.989Z - info: Using extension html-to-xlsx@4.1.4
+2025-01-10T14:44:02.248Z - info: html-to-xlsx detected chrome as available html engine
+2025-01-10T14:44:02.249Z - info: Using extension pptx@4.3.2
+2025-01-10T14:44:02.252Z - info: Using extension scheduling@4.0.0
+2025-01-10T14:44:02.290Z - info: Using extension scripts@4.1.0
+2025-01-10T14:44:02.292Z - info: Using extension static-pdf@4.1.0
+2025-01-10T14:44:02.293Z - info: Using extension studio@4.2.0
+2025-01-10T14:44:02.370Z - info: Using extension xlsx@4.3.0
+2025-01-10T14:44:02.371Z - info: Using extension public-templates@4.0.0
+2025-01-10T14:44:02.373Z - info: Using extension sample-template@4.0.0
+2025-01-10T14:44:02.374Z - info: Using extension studio-theme-dark@4.0.0
+2025-01-10T14:44:02.375Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-01-10T14:44:02.375Z - info: Using fs provider for template store.
+2025-01-10T14:44:02.377Z - info: fs store is persisting using fs for C:\Users\ferna\Documents\Personal\DemotorsAppWorker\data
+2025-01-10T14:44:02.380Z - info: fs store is loading data
+2025-01-10T14:44:02.391Z - info: fs store is initialized successfully
+2025-01-10T14:44:02.396Z - info: Creating default express app.
+2025-01-10T14:44:02.415Z - info: jsreport server successfully started on http port: 5488
+2025-01-10T14:44:02.415Z - info: Verifying license key free
+2025-01-10T14:44:02.416Z - info: Using free license
+2025-01-10T14:44:02.418Z - info: Initializing worker threads
+2025-01-10T14:44:02.836Z - info: 2 worker threads initialized in 418ms
+2025-01-10T14:44:02.836Z - info: Starting temp files cleanup with 180000ms threshold
+2025-01-10T14:44:02.836Z - info: reporter initialized
+2025-01-10T14:45:23.064Z - info: Render request 1 queued for execution and waiting for available worker rootId=i5y32094p5to09j, id=i5y32094p5to09j
+2025-01-10T14:45:23.087Z - info: Starting rendering request 1 rootId=i5y32094p5to09j, id=i5y32094p5to09j
+2025-01-10T14:45:23.088Z - info: Rendering template { name: lista-detalles-equipos-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=i5y32094p5to09j, id=i5y32094p5to09j
+2025-01-10T14:45:24.946Z - info: Rendering request 1 finished in 1896 ms rootId=i5y32094p5to09j, id=i5y32094p5to09j
+2025-01-10T14:45:28.396Z - info: Render request 2 queued for execution and waiting for available worker rootId=gdc0o04talx4853, id=gdc0o04talx4853
+2025-01-10T14:45:28.406Z - info: Starting rendering request 2 rootId=gdc0o04talx4853, id=gdc0o04talx4853
+2025-01-10T14:45:28.407Z - info: Rendering template { name: lista-equipo-clientes-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gdc0o04talx4853, id=gdc0o04talx4853
+2025-01-10T14:45:29.763Z - info: Rendering request 2 finished in 1369 ms rootId=gdc0o04talx4853, id=gdc0o04talx4853

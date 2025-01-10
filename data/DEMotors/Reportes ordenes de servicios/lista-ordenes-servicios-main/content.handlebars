@@ -49,12 +49,12 @@
                             {{/each}}
                         </tbody>
                     </table>
-                    <div>
-                        <h1>Imagenes: </h1>
+                    <h1>Imagenes: </h1>
+                        <section id="photo-container">
                         {{#each dataImagenes}}
-                            <img src={{NOMBRE_IMAGEN}} width="75%"/>
+                                <img src={{NOMBRE_IMAGEN}} class="photo"/>
                         {{/each}}
-                    </div>
+                        </section>
                 </main>
             </div>
     </body>

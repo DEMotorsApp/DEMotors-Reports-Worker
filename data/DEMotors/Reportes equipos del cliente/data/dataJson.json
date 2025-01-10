@@ -11,7 +11,7 @@
     ],
     "dataImagenes": [
         {
-            "NOMBRE_IMAGEN": "http://localhost:3200/api/image/static/1734854753911-375562220-1734854753911.png"
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/fab2889df04e40d266cabd44f46d6122.jpg"
         }
     ]
 }

@@ -12,7 +12,40 @@
     ],
     "dataImagenes": [
         {
-            "NOMBRE_IMAGEN": "http://localhost:3200/api/image/static/1734854753911-375562220-1734854753911.png"
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/fab2889df04e40d266cabd44f46d6122.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/1d1036a826c7c2b35b70aa6d81599334.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/862bca3fa6b5f762d0fee9c66a3ad895.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/8b1f3a085d58ec39f9661028ad8e700f.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/d99549f6542c5fb1bbcaee9b63c7f231.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/e47236012737e1b583526c57ddf1f2f7.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/2a8c5cb56fa314628a3fea55a5686fcb.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/7c2dd83180fd747fb900d728e9cc91c1.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/323d4b92bfbf29eb12262abb9e491ba8.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/e5edc0fe9a7caf78688e6e94d8580c0f.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/9e4524720535e453065c41966315f609.jpg"
+        },
+        {
+            "NOMBRE_IMAGEN": "https://app.demotorsguatemala.com:3000/bucket/uploads/serviceOrderImages/2025-0701000186/b1243290e5ea98ca4d1fa39c65ece489.jpg"
         }
     ]
 }
